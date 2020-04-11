@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 
-	<?php
+<?php
+   
+	$nom = isset($_GET["nom"]) ? $_GET["nom"] : ''; 
+	setcookie('nom', $nom, time()+86400*7); 
+	
+	$prenom = isset($_GET["prenom"]) ? $_GET["prenom"] : '';
+	setcookie('prenom', "Emilie", time()+3600*24*7);
+	
+	$password= isset($_GET["password"]) ? $_GET["password"] : '';
+	setcookie('pass', $password, time()+86400*7);
+	
+	$punition = isset($_GET["punition"]) ? $_GET["punition"] : '';
+	setcookie('punition', $punition, time()+86400*1);
+	
+	$nbFois = isset($_GET["nbFois"]) ? (int) $_GET["nbFois"] : '';
+	setcookie('nbFois', $nbFois, time()+86400*7);	
 
-		if(isset($_GET["nom"])){
-			setcookie('nom', $_GET["nom"], time()+86400*7); 
-			setcookie('prenom', "Emilie", time()+3600*24*7);
-			setcookie('pass', $_GET["password"], time()+86400*7);
-			setcookie('punition', $_GET["punition"], time()+86400*1);
-			setcookie('nbFois', (int)$_GET["nbFois"], time()+86400*7);		
-		}
-	?>
+?>
 <html>
 <body>
-	<h3> TP2/Exercice1: Cookies( stockage et affichage)</h3>	
-	<?php 
-       // VERIF SAISIE
-	   
-	   if(empty($_GET["nom"])) echo 'Entrer votre nom<br>';
-	   if(empty($_GET["prenom"])) echo 'Entrer votre prenom<br>';	   
-	   if(empty($_GET["password"])) { $_GET["password"]=''; echo 'Entrer votre password<br>';}	 
-	   if(empty($_GET["punition"])) echo 'Saisir la punition<br>';	  			   
-	   if(empty($_GET["nbFois"]))  echo 'Préciser le nbFois<br>';
+	<h3> TP2/Exercice1: Sauvegarde sur cookies</h3>	
+	<?php  	   
+	   if(empty($nom)) echo 'Entrer votre nom<br>';
+	   if(empty($prenom)) echo 'Entrer votre prenom<br>';	   
+	   if(empty($password)) echo 'Entrer votre password<br>';	 
+	   if(empty($punition)) echo 'Saisir la punition<br>';	  			   
+	   if(empty($nbFois))  echo 'Préciser le nbFois<br>';
 
 	   // AFFICHAGE
 	   echo '
 	   <table>
-		 <tr><td >Nom:</td><td >'.$_GET["nom"].' </td></tr>		 
-		 <tr><td >Prénom:</td><td >'.$_GET["prenom"].'</td></tr>			 		 
-		 <tr><td>Mot de passe:</td><td>'.$_GET["password"].'</td></tr>		 
+		 <tr><td >Nom:</td><td >'.$nom.' </td></tr>		 
+		 <tr><td >Prénom:</td><td >'.$prenom.'</td></tr>			 		 
+		 <tr><td>Mot de passe:</td><td>'.$password.'</td></tr>		 
 		 <tr><td>Punition:</td>			 
 			 <td>';
 				$n = 1;
-				while ($n <= $_GET["nbFois"])
+				while ($n <= $nbFois)
 				{
-					if($_GET["nbFois"]<= 100 ){
-						 echo $_GET["punition"].'<br/>';
+					if($nbFois <= 100 ){
+						 echo $punition.'<br/>';
 						 
 					}else{
 					  echo 'Nombre trop grand <br>';
