@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <?php
    
 	$nom = isset($_GET["nom"]) ? $_GET["nom"] : ''; 
@@ -18,46 +16,56 @@
 	setcookie('nbFois', $nbFois, time()+86400*7);	
 
 ?>
+
+<!DOCTYPE html>
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../menu.css" />	
+</head>
 <body>
-    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
-    <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
-    
-	<h3> TP2/Exercice1: Affichage des saisies et sauvegarde sur cookies</h3>	
-	<?php  	   
-	   if(empty($nom)) echo 'Entrer votre nom<br>';
-	   if(empty($prenom)) echo 'Entrer votre prenom<br>';	   
-	   if(empty($password)) echo 'Entrer votre password<br>';	 
-	   if(empty($punition)) echo 'Saisir la punition<br>';	  			   
-	   if(empty($nbFois))  echo 'Préciser le nbFois<br>';
+	<div class="topnav">
+	    <a class="active" href="../index.php">TP2</a>
+	    <a href="../exo1_cookie/form.php">Exo3: Manipulation des cookies</a> 
+	    <a href="../exo2_fichier_corpsFic/form.php">Exo4.b: Lecture de fichier(ligne par ligne)</a>
+	    <a href="../exo2_fichier_corpsFic2/form.php">Exo4.d: Lecture de fichier(dernier enregistrement)</a>
+	</div>
+	<div id="contenu"> 
+		<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+		<button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
+		
+		<h3> TP2/Exercice1: Affichage des saisies et sauvegarde sur cookies</h3>	
+		<?php  	   
+		   if(empty($nom)) echo 'Entrer votre nom<br>';
+		   if(empty($prenom)) echo 'Entrer votre prenom<br>';	   
+		   if(empty($password)) echo 'Entrer votre password<br>';	 
+		   if(empty($punition)) echo 'Saisir la punition<br>';	  			   
+		   if(empty($nbFois))  echo 'Préciser le nbFois<br>';
 
-	   // AFFICHAGE
-	   echo '
-	   <table>
-		 <tr><td >Nom:</td><td >'.$nom.' </td></tr>		 
-		 <tr><td >Prénom:</td><td >'.$prenom.'</td></tr>			 		 
-		 <tr><td>Mot de passe:</td><td>'.$password.'</td></tr>		 
-		 <tr><td>Punition:</td>			 
-			 <td>';
-				$n = 1;
-				while ($n <= $nbFois)
-				{
-					if($nbFois <= 100 ){
-						 echo $punition.'<br/>';
-						 
-					}else{
-					  echo 'Nombre trop grand <br>';
-					  break;
+		   // AFFICHAGE
+		   echo '
+		   <table>
+			 <tr><td >Nom:</td><td >'.$nom.' </td></tr>		 
+			 <tr><td >Prénom:</td><td >'.$prenom.'</td></tr>			 		 
+			 <tr><td>Mot de passe:</td><td>'.$password.'</td></tr>		 
+			 <tr><td>Punition:</td>			 
+				 <td>';
+					$n = 1;
+					while ($n <= $nbFois)
+					{
+						if($nbFois <= 100 ){
+							 echo $punition.'<br/>';
+							 
+						}else{
+						  echo 'Nombre trop grand <br>';
+						  break;
+						}
+						$n++;					
 					}
-					$n++;					
-				}
-			echo '</td>
-		 </tr>
-	   </table>       
-	   ';	   
-   ?>
-
-   
-   
+				echo '</td>
+			 </tr>
+		   </table>       
+		   ';	   
+	   ?>   
+   </div>
 </body>
 </html>  

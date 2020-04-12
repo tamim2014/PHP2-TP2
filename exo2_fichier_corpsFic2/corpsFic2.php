@@ -20,6 +20,7 @@
 ?>
 <html>
 <body>
+<div id="contenu">
 	<h3> TP2/Exercice4.c: Afficher seulement le dernier enregistrement</h3>	
 	<?php  	   
 	   if(empty($nom)) echo 'Entrer votre nom<br>';
@@ -36,6 +37,7 @@
 	  
 	   header('Location: nomInternautes.php'); 
 	   
-   ?>  
+   ?>
+</div>   
 </body>
 </html>  
