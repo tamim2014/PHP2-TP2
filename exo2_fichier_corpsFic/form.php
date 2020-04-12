@@ -3,6 +3,7 @@
 <head>
 	<title>TP2: Manipulatin des fichiers</title>
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
+	<link rel="shortcut icon" href="../favicon.ico"  />
 	
 </head>
 <body>
@@ -31,6 +32,9 @@
 		   </table>
 		</form>
 	</div>
+	<div class="footer">
+         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
+    </div>
 </body>
 </html>
 

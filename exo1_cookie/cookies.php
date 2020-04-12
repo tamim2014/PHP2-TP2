@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../menu.css" />	
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+    <link rel="shortcut icon" href="../favicon.ico"  />	
 </head>
 <body>
 	<div class="topnav">
@@ -14,8 +15,9 @@
 	<div id="contenu">    
 		<!-- Mais pourquoi mes cookies sont écrasé à chaque fois que je retourne au formulaire de saisie ?????????? -->
 		<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+		<button onclick="window.location.href='corps.php';">Afficher la saise</button>
 		<button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
-		<h3> TP2/Exercice1: Affichage des cookies</h3>	
+		<p></p>	
 		<?php
 			/**	
 			 * Blème de champs formulaire nom rempli
@@ -57,6 +59,9 @@
 			   ';
 			}	   
 	   ?>
-  </div> 
+    </div>
+	<div class="footer">
+         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
+    </div>	
  </body>
 </html>  

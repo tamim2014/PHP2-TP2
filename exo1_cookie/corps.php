@@ -20,7 +20,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../menu.css" />	
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+    <link rel="shortcut icon" href="../favicon.ico"  />	
 </head>
 <body>
 	<div class="topnav">
@@ -31,9 +32,11 @@
 	</div>
 	<div id="contenu"> 
 		<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+		<button onclick="window.location.href='corps.php';">Afficher la saise</button>
 		<button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
-		
-		<h3> TP2/Exercice1: Affichage des saisies et sauvegarde sur cookies</h3>	
+
+		<h5 >Affichage des saisies et sauvegarde sur cookies</h5>
+       			
 		<?php  	   
 		   if(empty($nom)) echo 'Entrer votre nom<br>';
 		   if(empty($prenom)) echo 'Entrer votre prenom<br>';	   
@@ -66,6 +69,9 @@
 		   </table>       
 		   ';	   
 	   ?>   
-   </div>
+    </div>
+	<div class="footer">
+         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
+    </div>
 </body>
 </html>  

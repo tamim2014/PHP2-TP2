@@ -3,7 +3,8 @@
 <head>
 	<title>TP2: Manipulation des cookies</title>
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
-	
+	<link rel="shortcut icon" href="../favicon.ico"  />
+	<style>button{ padding:2em 2.4em;}</style>	
 </head>
 <body>
 	<div class="topnav">
@@ -16,6 +17,7 @@
 
 	<div id="contenu">
 		<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+		<button onclick="window.location.href='corps.php';">Afficher la saise</button>
 		<button onclick="window.location.href='cookies.php';">Afficher les cookies</button>   
 		
 		<p></p>
@@ -31,6 +33,9 @@
 		   </table>
 		</form>
 	</div>
+	<div class="footer">
+         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
+    </div>
 </body>
 </html>
 

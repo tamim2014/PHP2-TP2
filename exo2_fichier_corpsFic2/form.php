@@ -3,19 +3,20 @@
 <head>
 	<title>TP2: Exercice1</title>
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
+	<link rel="shortcut icon" href="../favicon.ico"  />
+	<style>button{ padding:2em 1.85em;}</style>	
 	
 </head>
 <body>
 
 	<div class="topnav">
 	  <a class="active" href="../index.php">TP2</a>
-	  <!-- <a href="exo1_cookie/form.php">Exo3: Manipulation des cookies</a> -->
-	 <a href="../exo1_cookie/form.php">Exo3: Manipulation des cookies</a>
+	  <a href="../exo1_cookie/form.php">Exo3: Manipulation des cookies</a>
 	  <a href="../exo2_fichier_corpsFic/form.php">Exo4.b: Lecture de fichier(ligne par ligne)</a>
 	  <a href="../exo2_fichier_corpsFic2/form.php">Exo4.d: Lecture de fichier(dernier enregistrement)</a>
 	</div>
 	
-	<div id="contenu" class="onglet1-sujet ">	
+	<div id="contenu" >	
 		<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
 		<button onclick="window.location.href='cookies.php';">Afficher les cookies</button>   
 		<button onclick="window.location.href='nomInternautes.php';">Dernier internaute saisi</button>
@@ -32,6 +33,10 @@
 		   </table>
 		</form>
 	</div>
+
+	<div class="footer">
+         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
+    </div>
 </body>
 </html>
 

@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../menu.css" />	
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+    <link rel="shortcut icon" href="../favicon.ico"  />	
 </head>
 <body>
 	<div class="topnav">
@@ -15,7 +16,7 @@
 	    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
 	    <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>   
 	    <button onclick="window.location.href='nomInternautes.php';">Dernier internaute saisi</button>
-	    <h3> TP2/Exercice2: Afficher le dernier enregistrement </h3>	
+	    <h3>Afficher le dernier enregistrement </h3>	
 
 		<?php	
 			$afficheFichier = fopen('nomInternautes.txt', 'rb');
@@ -31,6 +32,9 @@
 			}
 					   
 		?>
+    </div>
+	<div class="footer">
+         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
     </div>
 </body>
 </html>

@@ -2,9 +2,10 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  line-height:2;
+  line-height:1.5; /* Au delà le footer décole */
   font-size:1.1em;
-  
+  background:#ECECEA;
+  overflow-x:hidden;
 }
 
 
@@ -12,7 +13,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #666;
+  background-color:#74AFAD;/* #666 */
   margin-bottom:2em;
 }
 
@@ -26,12 +27,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: white;
+  background-color: #ECECEA;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #558C89;/* #4CAF50; */
   color: white;
 }
 
@@ -63,6 +64,21 @@ button:hover{
 input{
 	padding:0.5em 10.6em; 
 
+}
+
+h5{
+	margin:0;
+}
+
+.footer {
+    background-color: #74AFAD;
+    padding: 10px;
+    text-align: left;
+	
+	position:absolute;
+    bottom:0;
+    width:100%;
+	
 }
 
 

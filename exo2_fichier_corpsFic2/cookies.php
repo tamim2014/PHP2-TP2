@@ -2,6 +2,7 @@
 
 <html>
 <head>
+   <link rel="shortcut icon" href="../favicon.ico"  />
    <link rel="stylesheet" type="text/css" href="../menu.css" />
 </head>
 <body>
@@ -15,7 +16,7 @@
 	   <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
 	   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>  
 	   <button onclick="window.location.href='nomInternautes.php';">Dernier internaute saisi</button>
-		<h3> TP2/Exercice1: Affichage des cookies</h3>	
+
 		<?php
 			 $tampon_nom = isset($_COOKIE['nom']) ? $_COOKIE['nom'] : '';
 			 $tampon_prenom = isset($_COOKIE['prenom']) ? $_COOKIE['prenom'] : '';
@@ -51,6 +52,9 @@
 			   ';
 			}	   
 		?>
-    </div>  
+    </div>
+    <div class="footer">
+         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
+    </div>	
  </body>
 </html>  
