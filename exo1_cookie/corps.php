@@ -20,7 +20,10 @@
 ?>
 <html>
 <body>
-	<h3> TP2/Exercice1: Sauvegarde sur cookies</h3>	
+    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+    <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
+    
+	<h3> TP2/Exercice1: Affichage des saisies et sauvegarde sur cookies</h3>	
 	<?php  	   
 	   if(empty($nom)) echo 'Entrer votre nom<br>';
 	   if(empty($prenom)) echo 'Entrer votre prenom<br>';	   
@@ -53,8 +56,7 @@
 	   </table>       
 	   ';	   
    ?>
-   <p><button onclick="window.location.href='cookies.php';">Afficher les cookies</button></p>
-   <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+
    
    
 </body>

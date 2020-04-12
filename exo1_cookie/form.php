@@ -5,6 +5,10 @@
 	
 </head>
 <body>
+    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+    <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>   
+    
+	<p></p>
 	<form action="corps.php" method="get">
 	   <table>
 	     <tr><td>Nom :</td><td><input type="text" name="nom" placeholder="Votre nom"></td></tr>

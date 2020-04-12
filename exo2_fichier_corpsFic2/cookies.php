@@ -2,6 +2,10 @@
 
 <html>
 <body>
+   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
+   <!-- Mais pourquoi mes cookies sont écrasé à chaque fois que je retourne au formulaire de saisie ?????????? -->
+   <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+   <button onclick="window.location.href='nomInternautes.php';">listes des internautes</button>
 	<h3> TP2/Exercice1: Affichage des cookies</h3>	
 	<?php
         /**	
@@ -44,10 +48,6 @@
 		   ';
 	    }	   
    ?>
-    
-   <p><button onclick="window.location.href='cookies.php';">Afficher les cookies</button><p>
-   <!-- Mais pourquoi mes cookies sont écrasé à chaque fois que je retourne au formulaire de saisie ?????????? -->
-   <button onclick="window.location.href='form.php';">Formulaire de saisie</button></p>
-   
+      
  </body>
 </html>  
