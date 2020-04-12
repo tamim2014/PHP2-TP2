@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div class="topnav">
-	  <a class="active" href="../../index.php">TP2</a>
+	  <a class="active" href="../index.php">TP2</a>
 	  <a href="../exo1_cookie/form.php">Exo3: Manipulation des cookies</a>
 	  <a href="../exo2_fichier_corpsFic/form.php">Exo4.b: Lecture de fichier(ligne par ligne)</a>
 	  <a href="../exo2_fichier_corpsFic2/form.php">Exo4.d: Lecture de fichier(dernier enregistrement)</a>
