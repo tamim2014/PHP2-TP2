@@ -2,11 +2,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
-   <!-- Mais pourquoi mes cookies sont écrasé à chaque fois que je retourne au formulaire de saisie ?????????? -->
    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
-   <button onclick="window.location.href='nomInternautes.php';">listes des internautes</button>
-	<h3> TP2/Exercice2: Affichage ligne par ligne</h3>	
+   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>   
+   <button onclick="window.location.href='nomInternautes.php';">Dernier internaute saisi</button>
+	<h3> TP2/Exercice2: Afficher le dernier enregistrement </h3>	
 
 <?php	
 	$afficheFichier = fopen('nomInternautes.txt', 'rb');
@@ -14,7 +13,7 @@
 			 
     //echo fread($afficheFichier, filesize('nomInternautes.txt'));//fread($file,"taille en octet");
 	
-	// 2.AFFICHAGE LIGNE PAR LIGNE
+	// 2.AFFICHAGE LIGNE PAR LIGNE: ici corpsFic2.php seulement la dernière ligne( option w+)
 	
 	while(!feof($afficheFichier)){
 		$ligne = fgets($afficheFichier);

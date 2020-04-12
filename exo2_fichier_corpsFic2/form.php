@@ -5,11 +5,11 @@
 	
 </head>
 <body>
-   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
-   <button onclick="window.location.href='nomInternautes.php';">listes des internautes</button>
+   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>   
+   <button onclick="window.location.href='nomInternautes.php';">Dernier internaute saisi</button>
     <p></p>
-	<form action="corpsFic.php" method="get">
+	<form action="corpsFic2.php" method="get">
 	   <table>
 	     <tr><td>Nom :</td><td><input type="text" name="nom" placeholder="Votre nom"></td></tr>
 		 <tr><td>Prénom:</td><td><input type="text" name="prenom" placeholder="Votre prenom"></td></tr>

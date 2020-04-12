@@ -2,18 +2,11 @@
 
 <html>
 <body>
-   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
-   <!-- Mais pourquoi mes cookies sont écrasé à chaque fois que je retourne au formulaire de saisie ?????????? -->
    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
-   <button onclick="window.location.href='nomInternautes.php';">listes des internautes</button>
+   <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>  
+   <button onclick="window.location.href='nomInternautes.php';">Dernier internaute saisi</button>
 	<h3> TP2/Exercice1: Affichage des cookies</h3>	
 	<?php
-        /**	
-		 * Blème de champs formulaire nom rempli
-		 * Je sais pas pourquoi le cookie me signale des erreurs. Normalent c'est pas son affaire, mais je sais pas !.
-	     * Si j'affiche directement  $_COOKIE['nomDuCookie'] ça m'fait "Notice: Undefined index" en cas de champs nom rempli.
-	     * c'pour ça  je fais ces tampons 
-		 */
 		 $tampon_nom = isset($_COOKIE['nom']) ? $_COOKIE['nom'] : '';
          $tampon_prenom = isset($_COOKIE['prenom']) ? $_COOKIE['prenom'] : '';
          $tampon_pass = isset($_COOKIE['pass']) ? $_COOKIE['pass'] : '';
