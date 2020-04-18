@@ -1,40 +1,30 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="../menu.css" />
-    <link rel="shortcut icon" href="../favicon.ico"  />
-</head>
-<body>
-	<div class="topnav">
-	    <a class="active" href="../index.php">TP2</a>
-	    <!-- <a href="../exo1_cookie/form.php">Exo3: Manipulation des cookies</a> -->
-		<a href="#">Exo3: Manipulation des cookies</a> 
-	    <a href="../exo2_fichier_corpsFic/form.php">Exo4.b: Lecture de fichier(ligne par ligne)</a>
-	    <a href="../exo2_fichier_corpsFic2/form.php">Exo4.d: Lecture de fichier(dernier enregistrement)</a>
-	</div>
+    <?php include 'entete.php'; ?>
+	
 	<div id="contenu">
-		<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
-		<button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
-		<button onclick="window.location.href='nomInternautes.php';">listes des internautes</button>
-		<h3> TP2/Exercice2: Affichage ligne par ligne</h3>	
+		<div class="sortie">
+			<div style="width:100%; padding:0; ">
+				<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+				<button onclick="window.location.href='cookies.php';">Afficher les cookies</button>
+				<button onclick="window.location.href='nomInternautes.php';">listes des internautes</button>
+			</div>
+			<div class="paragraphe" style="width:100%; padding:0;">
+			   <h3> TP2/Exercice2: Affichage ligne par ligne</h3>	
 
-		<?php	
-			$afficheFichier = fopen('nomInternautes.txt', 'rb');
-			// 1.AFFICHAGE EN FLUX CONTINU
-					 
-			//echo fread($afficheFichier, filesize('nomInternautes.txt'));//fread($file,"taille en octet");
-			
-			// 2.AFFICHAGE LIGNE PAR LIGNE
-			
-			while(!feof($afficheFichier)){
-				$ligne = fgets($afficheFichier);
-				echo $ligne.'<br>';
-			}				   
-		?>
-    </div>
-	<div class="footer">
-         <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
-    </div>
-</body>
-</html>
+				<?php	
+					$afficheFichier = fopen('nomInternautes.txt', 'rb');
+					// 1.AFFICHAGE EN FLUX CONTINU
+							 
+					//echo fread($afficheFichier, filesize('nomInternautes.txt'));//fread($file,"taille en octet");
+					
+					// 2.AFFICHAGE LIGNE PAR LIGNE
+					
+					while(!feof($afficheFichier)){
+						$ligne = fgets($afficheFichier);
+						echo $ligne.'<br>';
+					}				   
+				?>
+			</div><!-- .paragraphe -->
+		</div><!-- .sortie -->
+    </div><!-- #contenu --> 
+    <?php include 'piedPage.php'; ?>

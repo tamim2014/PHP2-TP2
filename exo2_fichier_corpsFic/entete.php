@@ -1,21 +1,18 @@
-<?php session_start(); ?>
-
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title> PHP2: TP1/Exercice1 </title>
-	<link rel="stylesheet" href="style.css" />
+	<title>TP2: Manipulation des cookies</title>
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+	<link rel="shortcut icon" href="../favicon.ico"  />
+	
 </head>
-
 <body>
-	<header>
-		<div id="en-tete"> 
-			<?php
-			setlocale(LC_TIME, 'fra_fra');			 
-			echo strftime('%A %d %B %Y, %Hh:%M')."<br/>"; // samedi 04 avril 2020, 23:43 
-			?>
-            <h4 >Travaux pratiques en PHP - 2ème semestre </h4>			
-		</div>
-		<div id="menu"> </div>
-	</header>
+	<div class="topnav">
+	    <a class="active" href="../index.php">TP2</a>
+	    <!-- <a href="../exo1_cookie/form.php">Exo3: Manipulation des cookies</a> -->
+		<a href="../exo1_cookie/form.php">Exo3: ookies</a> 
+	    <a href="../exo2_fichier_corpsFic/form.php">Exo4.b: Fichier( lecture ligne par ligne)</a>
+	    <a href="../exo2_fichier_corpsFic2/form.php">Exo4.d: Fichier(dernier enregistrement)</a>
+	</div>
+    <main>
+	    <div id="entete"></div>

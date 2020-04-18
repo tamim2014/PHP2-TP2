@@ -3,21 +3,7 @@
 <head>
 	<title>TP2: Manipulation des cookies</title>
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
-	<link rel="shortcut icon" href="../favicon.ico"  />
-	<style>
-	
-		/* ne pas factoriser le footer car il y un bleme sur le footer de la page d'accueil */
-		footer, .footer {
-			
-			/* 
-			 * Fixer le footer au cas le contenu ne remplit pas la hauteur de l'écran
-			 * Mais si le contenu est suffisant, i fo virer ces trucs car ils  posent un probleme(voir page d'accueil) */
-			 */
-			position: absolute;
-			width:100%;
-			bottom:0;           		
-		}		
-	</style>	
+	<link rel="shortcut icon" href="../favicon.ico"  />	
 </head>
 <body>
 	<div class="topnav">

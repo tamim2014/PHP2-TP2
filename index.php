@@ -27,10 +27,11 @@
 			clear: both;
 		}
 		
-		footer, .footer {
+		footer {
 			background-color: #74AFAD;
 			padding:2% 1%;
 			text-align: left;
+			position:static;
             		
 		}
 		.paragraphe{
@@ -117,9 +118,9 @@
 			  </p>
 			</div>
 		</div><!-- #contenu --> 
-        <!-- <div style="clear:both"></div> -->		
+     		
 
-		<footer>
+		<footer >
 			 <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
 		</footer>
 		

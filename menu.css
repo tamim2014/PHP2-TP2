@@ -43,17 +43,18 @@ main{
 	clear: both;
 }
 
-footer, .footer {
+footer {
 	background-color: #74AFAD;
-	padding:2% 1%;
+    line-height:3.5;
+	padding-left:2%;
+	padding-bottom:2%;
+
 	text-align: left;
-	/* Fixer le footer au cas le contenu ne remplit pas la hauteur de l'écran */	
-	/*
-	position:absolute;
-    bottom:0;
-    width:100%;
-	*/
-				
+	/* Ceci pose problème: le footer remonte si la page est pleine
+    position: absolute;
+    width: 100%; 
+    bottom: 0; 	
+    */	
 }
 
 
@@ -110,8 +111,10 @@ h5{
 /****************** Mise en page contenu : Page de saisie ****************/
 
 .entree{
-	  margin: 0 auto;
-	  width:84%; 
+	  margin:0 auto;
+	  width:84%;
+	
+      	  
 	  padding:0;
 	  background-color:white;   
 	  box-shadow:
@@ -168,7 +171,7 @@ h5{
 }
 
 .entree form table tr td {
-	padding:0 1em;
+	padding:0 1em;	
 }
 
 /* td conteneur des champs input */
@@ -185,11 +188,12 @@ h5{
 
 .sortie{
 	  margin: 0 auto;
-	  width:84%; 			 			 		 
+	  width:84%; 
+
 }
 
 .sortie button{
-	width:32.8%;		    
+	width:32.8%;	
 	padding:2em 1em;
   
 	border:none;

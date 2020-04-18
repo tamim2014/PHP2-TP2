@@ -1,5 +1,7 @@
-	<footer>
-     <b>Université Paris8 - Master1 MIASH 2019-2020<b> 	
-	</footer>
+
+		<footer>
+			 <small style="color:#ECECEA;"><span style="color:gray;">2019 &copy; -</span> Master Handi</small>
+		<footer>
+	</main>
 </body>
-</html>
+</html>  
