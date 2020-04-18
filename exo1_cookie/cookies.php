@@ -1,6 +1,6 @@
 
 <?php  
-	include 'enteteAffichage.php';
+	include 'enteteExercice1.php';
 	
 	echo '
 	<div id="contenu">

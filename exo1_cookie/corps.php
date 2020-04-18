@@ -17,7 +17,7 @@
 	
 	
 
-    include 'enteteAffichage.php';	
+    include 'enteteExercice1.php';	
 
 
 	echo '
