@@ -16,7 +16,7 @@
 	    <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
 	    <button onclick="window.location.href='cookies.php';">Afficher les cookies</button>   
 	    <button onclick="window.location.href='nomInternautes.php';">Dernier internaute saisi</button>
-	    <h3>Afficher le dernier enregistrement </h3>	
+	    <h3>Voici le dernier enregistrement </h3>	
 
 		<?php	
 			$afficheFichier = fopen('nomInternautes.txt', 'rb');
