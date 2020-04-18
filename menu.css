@@ -18,10 +18,15 @@ body {
 }
 
 main{
- /*
-  background:red;
-*/  
+ /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    le mettre en rouge pendant le développement des 3 exo pour mieux voir les marges
+	
+    background:red;
+  
+  */
+  
   margin:auto;
+
 }
 
 #contenu{
@@ -47,9 +52,11 @@ footer, .footer {
 	padding:2% 1%;
 	text-align: left;
 	/* Fixer le footer au cas le contenu ne remplit pas la hauteur de l'écran */	
+	/*
 	position:absolute;
     bottom:0;
     width:100%;
+	*/
 				
 }
 
