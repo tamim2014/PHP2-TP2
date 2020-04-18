@@ -19,9 +19,10 @@ body {
 
 main{
  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    le mettre en rouge pendant le développement des 3 exo pour mieux voir les marges
+    le mettre en rouge d'abord  pour mieux voir les marges
+	 background:red;
  */	
-    background:red;
+   
     margin:auto;
 }
 

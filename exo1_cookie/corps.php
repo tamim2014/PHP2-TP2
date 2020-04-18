@@ -17,7 +17,7 @@
 	
 	
 
-    include 'enteteExercice1.php';	
+    include 'entete.php';	
 
 
 	echo '
@@ -69,5 +69,5 @@
 	</div><!-- #contenu --> ';
 	 
 	
-	include 'piedPage-final.php'; 
+	include 'piedPage.php'; 
 ?>
