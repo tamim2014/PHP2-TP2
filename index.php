@@ -33,6 +33,21 @@
 			text-align: left;
             		
 		}
+		.paragraphe{
+			margin: 1em auto;
+			width:100%;
+			
+            float:left;			
+			border:1px solid #8c8b8b; 
+			padding:2% 5%  !important;
+
+			background: #f7f7f9;
+			
+			
+			
+			
+			
+		}
 	 </style>
 </head>
 
@@ -47,8 +62,8 @@
         <div id="contenu">
 			<div style="padding-left:16px">
 			  <h2>1) Différence entre session et cookie ?</h2>
-			  <p>
-				<ul type="square">
+			  <p >
+				<ul type="square" class="paragraphe" >
 				  <li>
 					<b>Les variables sessions</b> sont dans un fichier <u>sur le serveur</u>
 					<ul type="disc">
@@ -67,11 +82,11 @@
 				</ul> 
 			  </p>
 			</div>
-
+         
 			<div style="padding-left:16px">
 			  <h2>2) Où stocker le cookie ?</h2>
 			  <p>
-				<ul type="square">
+				<ul type="square" class="paragraphe">
 				  <li>C'est le navigateur du poste client qui gère l'emplacement de stockage </li>	  
 				</ul> 
 			  </p>
@@ -80,7 +95,7 @@
 			<div style="padding-left:16px">
 			  <h2>3) Quels sont les paramètres d'un cookie ?</h2>
 			  <p>
-				<ul type="square">
+				<ul type="square" class="paragraphe">
 				  <li>7 parmètres. 3 sont obligatoires: <b>setcookie(nom,  valeur, date d'expiration) ;</b> </li>	
 				  <li>Les autres sont à false ou null,  sauf le dernier ( <b>httpOnly</b> ) </li>
 				  <li>Ce dernier, exclu les language de script. Ce qui protège des attaques XSS. </li>	  
@@ -94,7 +109,7 @@
 			<div style="padding-left:16px">
 			  <h2>4) Conclusion TP2</h2>
 			  <p>
-				<ul type="square">
+				<ul type="square" class="paragraphe">
 				  <li></li>	
 				  <li></li>
 				  <li></li>		  
