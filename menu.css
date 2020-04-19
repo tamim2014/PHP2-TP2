@@ -29,7 +29,7 @@ main{
 #contenu{	
 	width: 70%;  
 	float: none;
-	margin: 4% auto 8% auto;
+	margin: 4% auto;
 	padding: 50px 20px 80px 20px; /* 25px 20px; */
 	background: #558C89; /* #ECECEA; */
 	border:none;
@@ -41,13 +41,11 @@ main{
 	clear: both;
 }
 
-footer {
-	
-	position: fixed;
+footer {	
+	position: fixed;/* static */
 	left: 0;
 	bottom: 0;
 	width: 100%;	
-	
 	
 	background-color: #74AFAD;
     line-height:3.5;
