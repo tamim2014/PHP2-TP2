@@ -8,7 +8,7 @@
             <div style="width:100%; padding:0; ">		
 			    <!-- Mais pourquoi mes cookies sont écrasé à chaque fois que je retourne au formulaire de saisie ?????????? -->
 			    <button onclick="window.location.href=\'form.php\';">Formulaire de saisie</button>
-			    <button onclick="window.location.href=\'corps.php\';">Afficher la saise</button>
+			    <button class="vide">Afficher la saise</button>
 			    <button onclick="window.location.href=\'cookies.php\';">Afficher les cookies</button>
 			</div>
             <div class="paragraphe" style="width:100%; padding:0;">	';		

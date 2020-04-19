@@ -5,50 +5,17 @@
 	 <link rel="shortcut icon" href="favicon.ico"  />
 	 <link rel="stylesheet" type="text/css" href="menu.css" />
 	 <style>
-		* {
-			box-sizing: border-box;
-		}
-		main{
-           
-		}
-
 		#contenu{
-			width: 70%;  
-			float: none;
-			padding: 25px 20px;
-			background: #ECECEA; 
-			border:none;
-			box-shadow:none;			
-			margin:auto;			
-		}
-		#contenu:after {
-			content: "";
-			display: table;
-			clear: both;
-		}
-		
-		footer {
-			background-color: #74AFAD;
-			padding:2% 1%;
-			text-align: left;
-			position:static;
-            		
+			padding: 0 20px;
+			background: transparent; /* #ECECEA; */			
 		}
 		.paragraphe{
-			margin: 1em auto;
 			width:100%;
-			
-            float:left;			
-			border:1px solid #8c8b8b; 
-			padding:2% 5%  !important;
-
-			background: #f7f7f9;
-			
-			
-			
-			
-			
+		}		
+		footer {
+			position:static;           		
 		}
+
 	 </style>
 </head>
 

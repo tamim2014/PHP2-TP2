@@ -7,7 +7,7 @@
 		<div class="entree">
 			<div style="width:100%; padding:0;">
 				 <button onclick="window.location.href=\'form.php\';">Formulaire de saisie</button>
-				 <button onclick="window.location.href=\'corps.php\';">Afficher la saise</button>
+				 <button class="vide" >Afficher la saise</button>
 				 <button onclick="window.location.href=\'cookies.php\';">Afficher les cookies</button>   
 			</div>
 			<p></p>

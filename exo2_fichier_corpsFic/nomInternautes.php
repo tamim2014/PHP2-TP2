@@ -1,7 +1,7 @@
 
     <?php include 'entete.php'; ?>
 	
-	<div id="contenu">
+	<div id="contenu" >
 		<div class="sortie">
 			<div style="width:100%; padding:0; ">
 				<button onclick="window.location.href='form.php';">Formulaire de saisie</button>
