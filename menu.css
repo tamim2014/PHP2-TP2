@@ -29,7 +29,7 @@ main{
 #contenu, .contenu, .titreExo{	
 	width: 70%;  
 	float: none;
-	margin: 4% auto 8% auto;
+	margin: 4% auto ;
 	padding: 50px 20px 80px 20px; /* 25px 20px; */
 	background: #558C89; /* #ECECEA; */
 	border:none;
@@ -60,16 +60,17 @@ main{
 }
 
 footer {	
-	position: fixed;/* static */
+	position: static;/* fixed*/
 	left: 0;
 	bottom: 0;
 	width: 100%;	
 	
 	background-color: #74AFAD;
-    line-height:3.5;
+    line-height:1.5; /* c'est p'tetr ça qui fou l'bazar - trop grand ! */
 	padding-left:2%;
 	padding-bottom:2%;
 	text-align: left;
+	margin-top:0;
 }
 
 
@@ -133,7 +134,8 @@ footer {
 	width:100%;
 	padding:0.7em;
 	margin-bottom:1em;
-	background:transparent; /* #558c89; #74AFAD; */
+	/* 10% de #555 en haut du bouton */
+	background-image: linear-gradient(180deg, #fff, #555 10%, #777) !important;
 }
 
 
