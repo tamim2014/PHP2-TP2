@@ -4,15 +4,15 @@
 
 	echo'
 	<div id="contenu">
-		<div class="entree">
-			<div style="width:100%; padding:0;">
+		<div class="entree"  >
+			<div style="width:100%; padding:0; ">
 				 <button onclick="window.location.href=\'form.php\';">Formulaire de saisie</button>
 				 <button class="vide" >Afficher la saise</button>
 				 <button onclick="window.location.href=\'cookies.php\';">Afficher les cookies</button>   
 			</div>
 			<p></p>
-			<form action="corps.php" method="get"  >
-			   <table>
+			<form action="corps.php" method="get" >
+			   <table >
 				 <tr><td>Nom :</td><td><input type="text" name="nom" ></td></tr>
 				 <tr><td>Prénom:</td><td><input type="text" name="prenom" ></td></tr>
 				 <tr><td>Password:</td><td><input type="password" name="password" ></td></tr>
