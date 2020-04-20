@@ -41,11 +41,21 @@ main{
 	clear: both;
 }
 
-.titreExo{
-	width:80% !important; 
+.titreExo, .titreFiche{
+	width:81% !important; 
 	padding:0 20px; 
-	text-align:center; 
-	background:#ddd; 
+	text-align:center;
+    background-color:#74AFAD !important; /*#ddd */	
+    color:#ececea;	
+
+}
+
+/* i fo pas mettre ce box-shadow en haut( même si c'est pas logique) sinon ça va merder sur la ligne 3D en bas des reponses cadrées(index.php) et en bas des exercices cadrés(resume.php)   */
+.titreFiche{	
+   -moz-box-shadow: inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000 ;
+   box-shadow: inset 0 0 3px #000000  !important;
+	
 }
 
 footer {	
@@ -184,7 +194,7 @@ input{
 button{
 	padding:2em;
 	border:none;
-	  box-shadow:
+	box-shadow:
 	0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
 	0px 2px 2px 0px rgba(255, 255, 255, 0.5);
 	cursor:pointer;
@@ -258,6 +268,10 @@ h5{
 	background-color:#74AFAD;
 	text-align:center;
 	color:#ECECEA;
+	
+   -moz-box-shadow: inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000 ;
+   box-shadow: inset 0 0 3px #000000  !important;
 }
 
 hr.finExo {
