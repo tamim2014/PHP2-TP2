@@ -83,18 +83,19 @@
 			<div class="entree" style="padding:1em;" >		   
 					<ul type="square" >
 					  <li>
-						<b>Les variables sessions</b> sont dans un fichier <u>sur le serveur</u>
+						<b>Les variables sessions</b> sont dans un fichier <u><b>sur le serveur</b></u>
 						<ul type="disc">
-						   <li>Stocker des infos pendant toute la durée d’une connexion, </li>
-						   <li>et d’échanger ces informations d’une page à l’autre   </li>
-						   <li>&dollar;_SESSION[ ] est une variable globale</li>
+						   <li><b>Durée de stockage:</b> Pendant toute la durée d’une connexion </li>
+						   <li><b>Portée:</b> &dollar;_SESSION[ ] est une variable globale    </li>
+						   <li><b>Usage:</b> Échanger les informations d’une page à l’autre</li>
 						</ul>
 					  </li>
 					  <li>
-						<b>Un cookie</b> est  un  fichier sur le disque dur du <u>post client</u>
+						<b>Un cookie</b> est  un  fichier sur le disque dur du <u><b>post client</b></u>
 						<ul type="disc">
-						   <li>Permet de stocker les infos même hors connexion</li>
-						   <li>&dollar;_COOKIE[ ] est une variable locale( voir la conséquence sur TP2/ note 1.j  )</li>
+						   <li><b>Durée:</b> À ma guise(données disponibles même hors connexion)</li>
+						   <li><b>Portée:</b> &dollar;_COOKIE[ ] est une variable locale(cf conséquence - TP2/note1.j) </li>
+						   <li><b>Usage:</b> Espionner l'internaute(ses habitudes de navigation) </li>
 						</ul>
 					  </li>
 					</ul> 
@@ -130,9 +131,13 @@
 				  <li>Les autres sont à false ou null,  sauf le dernier ( <b>httpOnly</b> ) </li>
 				  <li>Ce dernier, exclu les language de script. Ce qui protège des attaques XSS. </li>	  
 				</ul> 			
-				<p style="font:italic 1.1em calibri light">
+				<p style="font:italic 1.1em calibri light; padding-left:5em;">
 					&#9888; setcookie() défini 1 seul cookie et s'écrit avant tout code HTML !!!<br>
-					&#9888; sous chrome on peut voir l'etat des cookie avec la touche <b>Ctrl+Shift+J</b>
+					&#9888; sous chrome on peut voir l'etat des cookie avec la touche <b>Ctrl+Shift+J</b><br><br>
+					&#9888; Une heure = 60s * 60 mn = 3600s<br>
+					&#9888; Une journée = 3600s * 24 = 86400s<br>
+					&#9888; Une semaine = 86400 * 7<br>
+					&#9888; Un  mois = 86400 * 30<br>
 				</p>
 			</div>
 			<br><hr class="finExo" ><div class="entree titreExo" ></div>
