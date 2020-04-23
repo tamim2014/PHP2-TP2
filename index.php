@@ -4,7 +4,19 @@
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <link rel="shortcut icon" href="favicon.ico"  />
 	 <link rel="stylesheet" type="text/css" href="menu.css" />
-	 <style>		
+	 <style>
+        .retenir{
+			border:1px solid #8c8b8b ; 
+			padding:.5em 2em; 
+			border-radius:0 0 3px 3px; border:none;											
+			box-shadow:0.2px 2px 16px 0px #8c8b8b; 
+			width:96.5%;
+			background:white;
+			color:#990033;
+			margin-bottom:1em;
+		}
+		ul{ margin-top:0 !important;
+	 
 		footer {
 			position:static;           		
 		}
@@ -31,45 +43,62 @@
 	<main>
 		<div class="contenu" style="margin-top:1em; margin-bottom:0; padding:1em 0 0 0; ">	
 			<hr style="width:80.1%; border-color:#558C89; float:left; margin-left:9.9%; ">
-			<div class="entree titreFiche "><h3> Fiche1 </button></div>
+			<div class="entree titreFiche "><h3> Stockage sur fichier </button></div>
 		</div>
 		<div class="contenu" style=" padding-bottom:3em; margin-bottom:1em; margin-top:0; padding-top:1em; ">
 
 			<div class="entree" style="padding:1em 5em" >
 				<p>
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, 
-					consectetur, adipisci velit
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, 
-					adipisci velit
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-					adipisci velit
-					Neque porro quisquam est qui 
-					dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+				    <b>Côté serveur web:</b> Si l’on souhaite sauvegarder des données de taille moyenne et ce, longtemps (car les variables sont
+					éphémères et les cookies réduits à une seule valeur), on peut vouloir stocker des informations dans
+					des fichiers. En principe, on range les fichiers dans un répertoire <i>ad hoc</i> qui doit être en mode execute pour les others.
+					Son contenu(*.txt) doit être en mode RW pour others.
+					<img src="exo2_fichier_corpsFic/chmod.png" height="100px" class="retenir" style="margin-bottom:0;" >
+					<ul type="square" style="color:green">
+					    <li>
+							Le répertoire en mode X( pour others ):<br> 								
+							<span style="color:gray">chmod 77<b style="color:#115">1</b> nomInternautes</span>	
+						</li>
+						<li>
+							Les fichiers en mode RW(pour others):<br>
+							<span style="color:gray">chmod 77<b style="color:#115">6</b> nomInternautes/*.txt</span>	
+						</li>											
+					</ul>
+ 
 			   </p>		   
 			   <p>
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, 
-					consectetur, adipisci velit
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, 
-					adipisci velit
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-					adipisci velit
-					Neque porro quisquam est qui 
-					dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+				 Avant toute chose, il faut ouvrir le fichier:<br> <b class="retenir">fopen( "nomFichier", mode<small style="color:gray">[b]</small> )</b><br> 
+				 <small style="italic 0.7em calibri light;">Ce qui renvoie un objet de type <b>flux</b>.<br></small><br>
+				 Mode peut être égal à :
+				 
+				 <ul type="square" style="margin-top:-1em !important; margin-bottom:-1em !important;">
+					<li><b>r</b> :   fichier en lecture</li>
+                    <li><b>r+</b> : fichier en lecture-écriture<br></li>
+                    <li><b style="color:#990099">w</b> :   fichier en ecriture ( pointeur en <b style="color:#990099">début</b> de fichier)</li>	
+                    <li><b style="color:#990099">w+</b> : fichier en lecture-écriture( pointeur en <b style="color:#990099">début</b> de fichier)<br></li>
+                    <li><b style="color:#990033">a</b> :   fichier en ecriture ( pointeur en <b style="color:#990033">fin</b> de fichier) </li>
+                    <li><b style="color:#990033">a+</b> : fichier en lecture-écriture( pointeur en <b style="color:#990033">fin</b> de fichier)   </li>					
+				</ul>
 			   </p>
 			   <p >
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, 
-					consectetur, adipisci velit
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, 
-					adipisci velit
-									
-					Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-					adipisci velit
-									
-					Neque porro quisquam est qui 
-					dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+					Si on place le pointeur en début de fichier(<b style="color:#990099">w+</b>), on écrase l'enregistrement précédent.
+					Ce qui permet de sauvegarder uniquement le dernier enregistrement( cf exercice4b ).
+					Pour gérer les fichier, d'autres fonctions existent:
+					<h3> Contrôle du flux(mode de lecture)</h3>
+					<ul type="square" class="retenir" style="margin-top:-1em !important; color:gray;">
+						<li><b style="color:#660033">$flux = fopen( 'fic.txt' ,  'r+' )</b> :   nouveau fichier </li>	
+						<li><b style="color:#660033">fgets(  $flux )</b> : lecture ligne par ligne</li>
+						<li><b style="color:#660033">fgetc()</b> :   lecture caractère par caractère</li>
+						<li><b style="color:#660033">fclose( nomFlux )</b> : fermeture  </li>					
+					</ul>
+					<h3> Contrôle du pointeur <span style="font:italic 0.9em calibri light"> [ <b>fputs</b> est un alias à <b>fwrite</b> ]</span></h3>
+					<ul type="square" class="retenir" style="margin-top:-1em !important; color:gray;">
+						<li><b style="color:#660033">fputs(  $flux, 'Texte à écrire' )</b> :   le pointeur est placé à la fin du fichier  </li>	
+						<li><b style="color:#660033">fseek( $flux , 0 ) </b> : repositionner le pointeur au début du fichier</li>					
+					</ul>
 			   </p>      	   
 			</div>
-			<div class="entree ficheCaptionBas" style="border:none;" > Fiche à retenir &#9888; </div><br><hr class="finExo" ><div class="entree titreExo" ></div>
+			<div class="entree ficheCaptionBas" style="border:none;" > N'oublier pas les droits des fichiers &#9888; </div><br><hr class="finExo" ><div class="entree titreExo" ></div>
 			
 			
 		</div><!-- Fiche à retenir -->
