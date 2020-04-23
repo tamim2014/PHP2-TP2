@@ -49,12 +49,14 @@
 
 			<div class="entree" style="padding:1em 5em" >
 				<p>
-				    <b>Côté serveur web:</b> Si l’on souhaite sauvegarder des données de taille moyenne et ce, longtemps (car les variables sont
-					éphémères et les cookies réduits à une seule valeur), on peut vouloir stocker des informations dans
-					des fichiers. En principe, on range les fichiers dans un répertoire <i>ad hoc</i> qui doit être en mode execute pour les others.
-					Son contenu(*.txt) doit être en mode RW pour others.
+				    <b>Problème:</b> Les variables sont éphémères. Les cookies n'ont qu'une seule valeur.<br>
+					<b>Solution:</b> Si on veut sauvegarder des données de taille moyenne et pour longtemps , i fo  utiliser des fichiers.
+				</p>
+				<p>
+					En principe, on range les fichiers dans un répertoire <i>ad hoc</i> qui doit être en mode <b>execute</b> pour les others.
+					Son contenu(*.txt) doit être en mode <b>RW</b> pour others.
 					<img src="exo2_fichier_corpsFic/chmod.png" height="100px" class="retenir" style="margin-bottom:0;" >
-					<ul type="square" style="color:green">
+					<ul type="square" style="color:green; margin-top:-1em !important;">
 					    <li>
 							Le répertoire en mode X( pour others ):<br> 								
 							<span style="color:gray">chmod 77<b style="color:#115">1</b> nomInternautes</span>	
@@ -67,17 +69,17 @@
  
 			   </p>		   
 			   <p>
-				 Avant toute chose, il faut ouvrir le fichier:<br> <b class="retenir">fopen( "nomFichier", mode<small style="color:gray">[b]</small> )</b><br> 
-				 <small style="italic 0.7em calibri light;">Ce qui renvoie un objet de type <b>flux</b>.<br></small><br>
+				 Avant toute chose, il faut ouvrir le fichier:<br> <b class="retenir" style="padding-right:.7em;">fopen( "nomFichier", mode<small style="color:gray">[b]</small> ) <small style="italic 0.5em calibri light; color:gray;">//renvoie 1 <b>flux</b>.<br></small></b><br> 
+				 
 				 Mode peut être égal à :
 				 
 				 <ul type="square" style="margin-top:-1em !important; margin-bottom:-1em !important;">
 					<li><b>r</b> :   fichier en lecture</li>
                     <li><b>r+</b> : fichier en lecture-écriture<br></li>
-                    <li><b style="color:#990099">w</b> :   fichier en ecriture ( pointeur en <b style="color:#990099">début</b> de fichier)</li>	
-                    <li><b style="color:#990099">w+</b> : fichier en lecture-écriture( pointeur en <b style="color:#990099">début</b> de fichier)<br></li>
-                    <li><b style="color:#990033">a</b> :   fichier en ecriture ( pointeur en <b style="color:#990033">fin</b> de fichier) </li>
-                    <li><b style="color:#990033">a+</b> : fichier en lecture-écriture( pointeur en <b style="color:#990033">fin</b> de fichier)   </li>					
+                    <li><b style="color:#990099">w</b> :   fichier en ecriture (pointeur au <b style="color:#990099">début</b>)</li>	
+                    <li><b style="color:#990099">w+</b> : fichier en lecture-écriture(pointeur au <b style="color:#990099">début</b>)</li>
+                    <li><b style="color:#990033">a</b> :   fichier en ecriture (pointeur à la <b style="color:#990033">fin</b>)</li>
+                    <li><b style="color:#990033">a+</b> : fichier en lecture-écriture(pointeur à la <b style="color:#990033">fin</b>)</li>					
 				</ul>
 			   </p>
 			   <p >
