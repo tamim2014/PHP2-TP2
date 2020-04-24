@@ -5,16 +5,7 @@
 	 <link rel="shortcut icon" href="favicon.ico"  />
 	 <link rel="stylesheet" type="text/css" href="menu.css" />
 	 <style>
-        .retenir{
-			border:1px solid #8c8b8b ; 
-			padding:.5em 2em; 
-			border-radius:0 0 3px 3px; border:none;											
-			box-shadow:0.2px 2px 16px 0px #8c8b8b; 
-			width:96.5%;
-			background:white;
-			color:#990033;
-			margin-bottom:1em;
-		}
+
 		ul{ margin-top:0 !important;
 	 
 		footer {
