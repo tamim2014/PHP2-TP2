@@ -20,7 +20,7 @@
 ?>
 <html>
 <body>
-	<h3> TP2/Exercice1: Traitement du formulair( enregitrement des internautes dans un fichier texte)</h3>	
+	<h3> Stockage ligne par ligne</h3>	
 	<?php  	   
 	   if(empty($nom)) echo 'Entrer votre nom<br>';
 	   if(empty($prenom)) echo 'Entrer votre prenom<br>';	   
@@ -30,11 +30,27 @@
 
        // SAISIE exo2
 	   $SaisieFichier = fopen("nomInternautes.txt","a+");
-	   echo fwrite($SaisieFichier,$nom." , ".$prenom."\r\n");
+	   echo fwrite($SaisieFichier, $nom." , ".$prenom."\r\n");
        fclose($SaisieFichier);
 	   
 	  
 	   header('Location: nomInternautes.php'); 
+	   
+	   
+	
+	   /*----------- bref -----------
+	      
+	   $nom = isset($_GET["nom"]) ? $_GET["nom"] : ''; 
+	   $prenom = isset($_GET["prenom"]) ? $_GET["prenom"] : '';
+
+	   
+	   $fichier = fopen("nomInternautes.txt","a+");
+	   $ligne = $nom.", ".$prenom."\r\n";
+	   echo fwrite($fichier, $ligne);
+       fclose($fichier);
+	   
+	   --------------------------------*/
+	   
 	   
    ?>  
 </body>
