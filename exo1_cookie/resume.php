@@ -96,6 +96,7 @@
                 <p class="retenir" style="color:black;  width:60%;">					
 					<br>&dollar;fichier=fopen("nomInternautes.txt",<b style="color:red">"a+"</b>);
 				    <br>&dollar;ligne = <b class="maron">&dollar;nom </b>.", ".<b class="maron">&dollar;prenom </b>."\r\n";
+					<br>echo fwrite(&dollar;fichier, &dollar;ligne);
 					<br>fclose(&dollar;fichier); 					
 				</p>
 
