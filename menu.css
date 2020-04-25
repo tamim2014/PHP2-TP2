@@ -137,6 +137,10 @@ footer {
 	/* 10% de #555 en haut du bouton */
 	background-image: linear-gradient(180deg, #fff, #555 10%, #777) !important;
 }
+.reduireHauteurBtn{
+	padding:0.2em 0.7em;
+	margin-bottom:0;	
+}
 
 
 #envoyer{
@@ -187,12 +191,15 @@ footer {
 	padding: 1.2em ; /* padding: 0.6em 1.2em ; */
 	margin:0.2em 0;
 }
-
-input{
-	/*
-	padding:0.5em 10.6em; 
-	*/		
+/* Liberer de la place pour le captcha:Reduire la hauteur des champs */
+.entree form.exo5 table tr td input{ 
+	padding:0.5em 1.2em;
+	
 }
+.entree form.exo5 { 
+	padding-top:0.5em !important;	
+}
+
 
 button{
 	padding:2em;
@@ -201,6 +208,10 @@ button{
 	0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
 	0px 2px 2px 0px rgba(255, 255, 255, 0.5);
 	cursor:pointer;
+}
+button.reduireBouton{
+	padding:1em 2em;
+	margin-bottom:0;
 }
 
 button:hover{
