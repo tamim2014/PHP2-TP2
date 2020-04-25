@@ -12,7 +12,7 @@
 		<a href="../exo1_cookie/form.php">Exo3(Cookies)</a> 
 	    <a href="../exo2_fichier_corpsFic/form.php">Exo4b(Fichier)</a>
 	    <a href="../exo2_fichier_corpsFic2/form.php">Exo4d(Fichier)</a>
-		<a href="../exo2_fichier_corpsFic2/captcha.php">Exo5(Captcha)</a>
+		<a href="../captcha/captcha.php">Exo5(Captcha)</a>
 		<!-- <a href="../sujet/sujet.php"> &Eacutenonc&eacute; </a> -->
 		<div class="dropdown">
 			<button class="dropdown-btn" > &Eacutenonc&eacute; </button>
