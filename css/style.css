@@ -366,13 +366,12 @@ hr.bIsm:after {
 	font-family:Serif;
 	padding-left:2em;
 	margin-top:0; padding-top:0;
-	
+	display:block;
 }
 /* Citation du coran */
 B {
 	color:#579;/* color:#457; ou gray */ 
-	padding-left:0; 
-	display:block;
+	padding-left:0; 	
 }
 
 #firstChildDropdown{
