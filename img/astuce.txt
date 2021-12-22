@@ -1,0 +1,1 @@
+Ouvrir le pdf avec un browser (pour pouvoir le manipuler)

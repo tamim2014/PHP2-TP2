@@ -1,0 +1,54 @@
+
+#myBtn {
+ display: none;  
+  position: fixed;
+  right: 0;
+  bottom: 5%;
+  
+  z-index: 99;
+  
+  border: none;
+  outline: none; 
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow:none;
+}
+
+#myBtn:hover {
+  background-color:#3d3d5c; /* #555; */
+  box-shadow:inherit;
+}
+
+/* Paramètre d'Animation:first-child du Dropdomn-content et btn GO TO TOP */ 
+
+@-webkit-keyframes ombre {	
+  0% { box-shadow: 0 0 15px red; }
+  100% { box-shadow: 0 0 15px yellow; border:2px solid yellow; padding:2px; }
+}
+@-moz-keyframes ombre {
+  0% { box-shadow: 0 0 15px gold; }
+  100% {  box-shadow: 0 0 15px yellow; }
+}
+@keyframes ombre {
+  0% { box-shadow: 0 0 15px red;   }
+  100% { box-shadow: 0 0 15px yellow;/* tester  #ff1 et gold*/ }
+}
+
+/* mise à feu */
+
+#firstChildDropdown{
+  -webkit-animation: ombre ease-in infinite alternate 500ms;
+  -moz-animation: ombre ease-in infinite alternate 100ms;
+  animation: ombre ease-in infinite alternate 500ms;
+}
+#imageToTop {
+  border-radius: 4px;  
+  -webkit-animation: ombre ease-in infinite alternate 500ms;
+  -moz-animation: ombre ease-in infinite alternate 100ms;
+  animation: ombre ease-in infinite alternate 500ms;
+}
+
+
