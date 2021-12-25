@@ -311,13 +311,27 @@ hr.finExo {
 	color:#9999ff;
 }
 
-.textArabe { font-family:Amiri; font-size:1.1em;  line-height:2;}
+.textArabe { font-family:Amiri; font-size:1.1em;  line-height:2; padding-right:1em; }
 .traduction, .textSource{  color:#115; font-size:1.05em; font-style:italic; font-weight:bold;}
   hr.separateur {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	width:70%;
+  }
+  hr.hr1  {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  }
+  hr.hr2{ 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    margin-bottom:2em;	
   }
  
 
