@@ -389,13 +389,14 @@ B {
 	padding-left:0; 	
 }
 
-#firstChildDropdown{
+#firstChildDropdown, #firstChildDropdown2{
 	background-image: url('../img/t1b.png'); 
 	background-repeat: no-repeat; 
 	color:transparent;  
 }
+#firstChildDropdown2{background-image: url('../img/t2b.png'); }
 .dernierParagraph { padding-bottom:3em; }
-
+.annotation{ color:#007; font-family:serif; font-size:.7em; font-weight:bold;}
 
 
 
