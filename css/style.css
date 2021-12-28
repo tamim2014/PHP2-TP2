@@ -375,7 +375,7 @@ hr.bIsm:after {
 	background:white;
 }
 /* Hadith rapporté du Prophète - PAIX DE DIRU A LUI - */
-.SUNNA, B {
+.SUNNA, .reference, B  {
 	font-style:italic;
 	font-family:Serif;
 	font-size:1.07em;
@@ -383,11 +383,13 @@ hr.bIsm:after {
 	margin-top:0; padding-top:0;
 	display:block;
 }
+.reference{ font-weight:normal; color:black; font-size:.9em;}
 /* Citation du coran */
 B {
 	color:#579;/* color:#457; ou gray */ 
 	padding-left:0; 	
 }
+
 
 #firstChildDropdown, #firstChildDropdown2{
 	background-image: url('../img/t1b.png'); 
@@ -397,6 +399,25 @@ B {
 #firstChildDropdown2{background-image: url('../img/t2b.png'); }
 .dernierParagraph { padding-bottom:3em; }
 .annotation{ color:#007; font-family:serif; font-size:.7em; font-weight:bold; text-decoration:none;}
+
+.s5v16{
+  float: none;  
+  width:87%;/* m'a emmerdé car i fallait remplir ainsi remplir l'ecran .sinon le contenu remonte en display inline: la solution ? display:table-cell; ou bien un margin-right: largeurTotal - largeurElement; */
+  height: auto ;
+  padding:1.2em;  
+  margin:auto 2em;                                                    
+  background: #f7f7f9;
+
+  border:1px solid #8c8b8b;
+  border-radius: 4px;
+  
+  line-height:1.5;  text-align:center; box-shadow:none;		  
+}
+  p.s5v16 strong {
+	background:#ddd; color:#007; line-height:3; font-family:Amiri; padding:.2em .5em;		  
+	box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }
 
 
 
