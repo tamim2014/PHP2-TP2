@@ -383,7 +383,7 @@ hr.bIsm:after {
 	margin-top:0; padding-top:0;
 	display:block;
 }
-.reference{ font-weight:normal; color:black; font-size:.9em;}
+.reference{ font-weight:normal;  font-size:.9em; display:inline; color:gray;}
 /* Citation du coran */
 B {
 	color:#579;/* color:#457; ou gray */ 
@@ -418,6 +418,7 @@ B {
 	box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   }
-
+ /* img dans le footer */
+.marfa3 { float:right; padding-right:.9em; }
 
 
