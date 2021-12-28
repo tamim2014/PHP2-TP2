@@ -312,7 +312,7 @@ hr.finExo {
 }
 
 .textArabe { font-family:Amiri; font-size:1.1em;  line-height:2; padding-right:1em; }
-.traduction, .textSource{  color:#115; font-size:1.05em; font-style:italic; font-weight:bold;}
+.traduction, .textSource{  color:#115; font-size:1.05em; font-style:italic; font-weight:bold; }
   hr.separateur {
     border: 0;
     height: 1px;
@@ -396,7 +396,7 @@ B {
 }
 #firstChildDropdown2{background-image: url('../img/t2b.png'); }
 .dernierParagraph { padding-bottom:3em; }
-.annotation{ color:#007; font-family:serif; font-size:.7em; font-weight:bold;}
+.annotation{ color:#007; font-family:serif; font-size:.7em; font-weight:bold; text-decoration:none;}
 
 
 
