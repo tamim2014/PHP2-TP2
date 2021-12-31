@@ -312,8 +312,16 @@ hr.finExo {
 }
 
 .textArabe { font-family:Amiri; font-size:1.1em;  line-height:2; padding-right:1em; }
-.traduction, .textSource{  color:#115; font-size:1.05em; font-style:italic; font-weight:bold; }
-  hr.separateur {
+/* 
+ *
+ * VARIER LE width EN FONCTION DU TEXTE
+ *.centerDiv { margin:0 auto; width:65%; }
+ * 
+ */
+.centerDiv { margin:0 auto 2.5em auto; width:77%; }
+.traduction, .traductionCenterDiv, .textSource{  color:#115; font-size:1.05em; font-style:italic; font-weight:bold; }
+.traductionCenterDiv{text-align:left;}
+ hr.separateur {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
@@ -422,5 +430,8 @@ b , .bleu {
   }
  /* img dans le footer */
 .marfa3 { float:right; padding-right:.9em; }
+
+
+
 
 
