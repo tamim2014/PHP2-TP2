@@ -1,3 +1,7 @@
+Dédier une page bibliographique/Avec chronologie(TimeLine)
+ pour les principaux auteurs(bibliographie.html)
+
+
 Ibn Abbas: Sur s110
 Ibn Omar:
 Ibn Maja:

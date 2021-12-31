@@ -4,7 +4,7 @@ body {
   
   font-family: Arial, Helvetica, sans-serif;
   line-height:1.5; /* Au delà le footer décole */
-  background:#ECECEA;
+  background:#ECECEA;  /* #474e5d; ce background est interessant*/ 
   overflow-x:hidden;
 }
 
