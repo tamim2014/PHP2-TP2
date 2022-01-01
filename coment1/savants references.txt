@@ -1,5 +1,6 @@
-Dédier une page bibliographique/Avec chronologie(TimeLine)
+*Dédier une page bibliographique/Avec chronologie(TimeLine)
  pour les principaux auteurs(bibliographie.html)
+* Implementer le footer "ndreda" dans la biblio INCHA ALLAH
 
 
 Ibn Abbas: Sur s110

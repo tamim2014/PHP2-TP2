@@ -90,8 +90,9 @@ footer {
   color: black;
 }
 .topnav a.active {
-  background-color: #558C89;/* #4CAF50; */
-  color: white;
+  /* background-color:#558C89; color: white; */
+  background-color: #4CAF50; color:#ccc;
+  
   font-weight:bold;
   padding: 25px 30px; /* padding: 25px 30px; */
 }
