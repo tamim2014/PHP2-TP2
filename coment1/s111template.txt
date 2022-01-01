@@ -1,0 +1,7 @@
+On y trouve 2 outils:
+1) la centralisation de la traduction française
+2) la "liste dialogue" dans un SUNNA ( hors paragraphe)
+______________
+REMARQUE:
+* Pour virer l'espace en haut d'un <ul>
+  i fo pas  mettre le <ul> dans un paragraphe<p>

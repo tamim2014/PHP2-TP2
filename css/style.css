@@ -320,7 +320,8 @@ hr.finExo {
  * 
  */
 .centerDiv { margin:0 auto 2.5em auto; width:77%; }
-.traduction, .traductionCenterDiv, .textSource{  color:#115; font-size:1.05em; font-style:italic; font-weight:bold; }
+.traduction, .traductionCenterDiv, .textSource, .textSourceNormal {  color:#115; font-size:1.05em; font-style:italic; font-weight:bold; }
+.textSourceNormal{ font-size:1em; font-weight:normal;}
 .traductionCenterDiv{text-align:left;}
  hr.separateur {
     border: 0;
