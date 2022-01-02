@@ -90,8 +90,9 @@ footer {
   color: black;
 }
 .topnav a.active {
-  /* background-color:#558C89; color: white; */
-  background-color: #4CAF50; color:#ccc;
+  
+  background-color: #33a198; /* background-color: #4CAF50; ou  #558C89; color: white; */
+  color:#ccc;
   
   font-weight:bold;
   padding: 25px 30px; /* padding: 25px 30px; */
@@ -394,7 +395,7 @@ hr.bIsm:after {
 	display:block;
 }
 .reference, .referenceNom{ font-weight:normal;  font-size:.9em; display:inline; color:gray; padding-left:0;}
-.referenceNom{font-size:1em;}
+.referenceNom{font-size:1em; font-weight:bold;}
 /* Citation du coran */
 b , .bleu {
 	color:#579;/* color:#457; ou gray */ 
