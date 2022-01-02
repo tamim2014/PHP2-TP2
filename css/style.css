@@ -4,7 +4,7 @@ body {
   
   font-family: Arial, Helvetica, sans-serif;
   line-height:1.5; /* Au delà le footer décole */
-  background:#ECECEA;  /* #474e5d; ce background est interessant*/ 
+  background:#474e5d;  /* ou  #ECECEA; */ 
   overflow-x:hidden;
 }
 
@@ -437,7 +437,8 @@ ul.ulSUNNA { list-style:none; padding:0 auto; margin:0 auto;}
 
 .basmalaF { text-align:center; font-style:italic; font-size:.7em;}
 
-
+/* .bld { font-weight:bold; font-family: 'Trebuchet MS', Helvetica, sans-serif;} */
+.bld { font-weight:bold; font-family: Helvetica; font-style:italic; font-size:.93em;}
 
 
 
