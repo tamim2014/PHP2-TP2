@@ -386,7 +386,7 @@ hr.bIsm:after {
 	background:white;
 }
 /* Hadith rapporté du Prophète - PAIX DE DIRU A LUI - */
-.SUNNA, .reference, .referenceNom, B  {
+.SUNNA, .reference, .referenceNom, b, .bleu  {
 	font-style:italic;
 	font-family:Serif;
 	font-size:1.07em;
