@@ -1,2 +1,2 @@
-coment1/s111, coment2/s113,  coment2/s109 :
-<span class="referenceNom" style="color:black; font-family:Calibri;">Ibn Abbas</span><sup id="a2" ><a href="s110.html#a1" target="_blank" class="annotation">(1)</a></sup>
+coment1/s111, coment2/s113,  coment2/s109, coment2/s108 :
+<span class="referenceNom" style="color:black; font-family:Calibri;">Ibn Abbas</span><sup id="a2" ><a href="../coment1/s110.html#a1" target="_blank" class="annotation">(1)</a></sup>
