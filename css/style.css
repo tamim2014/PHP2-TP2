@@ -436,7 +436,7 @@ ul.ulSUNNA { list-style:none; padding:0 auto; margin:0 auto;}
  /* img dans le footer */
 .marfa3 { float:right; padding-right:.9em; }
 
-.basmalaF { text-align:center; font-style:italic; font-size:.7em;}
+.basmalaF { text-align:center; font-style:italic; font-size:.7em; color:#000066;}
 
 /* .bld { font-weight:bold; font-family: 'Trebuchet MS', Helvetica, sans-serif;} */
 .bld { font-weight:bold; font-family: Helvetica; font-style:italic; font-size:.93em;}
