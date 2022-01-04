@@ -1,2 +1,10 @@
-coment1/s111, coment2/s113,  coment2/s109, coment2/s108 :
-<span class="referenceNom" style="color:black; font-family:Calibri;">Ibn Abbas</span><sup id="a2" ><a href="../coment1/s110.html#a1" target="_blank" class="annotation">(1)</a></sup>
+coment1/s111,s107 | coment2/s113,  coment2/s109, coment2/s108 :
+<span class="referenceNom" style="color:black; font-family:Calibri;">Ibn Abbas</span><sup id="a2" ><a href="../coment1/s110.html#a1" target="_blank" class="annotation"> (1)</a></sup>
+
+_____________
+coment1/s107
+<span class="referenceNom" style="color:black; font-family:Calibri;">Abou Houraira</span><sup id="abouhouraira" ><a href="../bibliographie.html#abouhouraira" target="_blank" class="annotation"> (1)</a></sup>
+
+_______________
+coment1/s107
+<span class="referenceNom" style="color:black; font-family:Calibri;">Hassan Al-Basri</span><sup id="hassanebasri" ><a href="../bibliographie.html#abouhouraira" target="_blank" class="annotation"> (1)</a></sup>
