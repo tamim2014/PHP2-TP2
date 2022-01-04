@@ -1,14 +1,14 @@
   
       1) Le verset	   
-                <span class="textSource">&#8718;  «...» (7)</span><br>
+                <span class="textSource">&#8718;&nbsp; ï¿½...ï¿½ (7)</span><br>
 
-       2) Son découpage	   
+       2) Son dï¿½coupage	   
                <span class="bld"> ...: </span>... <br> 
                <span class="bld"> ...: </span>... <br> 
 
        3) Son vocabulaire(et sa phonetique):
-               &#9193;  <span class="textSourceNormal">phonétique(text arabe)</span> : ... <br> 
-              &#9193;  <span class="textSourceNormal">phonétique(texte arabe)</span> :  ... <br>
+               <small>&#128270; </small>  <span class="textSourceNormal">phonï¿½tique(text arabe)</span> : ... <br> 
+              <small>&#128270; </small>  <span class="textSourceNormal">phonï¿½tique(texte arabe)</span> :  ... <br>
 
        4) Et enfin l'interpretation(tafsir)
              ...
