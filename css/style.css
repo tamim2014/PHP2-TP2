@@ -440,6 +440,6 @@ ul.ulSUNNA { list-style:none; padding:0 auto; margin:0 auto;}
 
 /* .bld { font-weight:bold; font-family: 'Trebuchet MS', Helvetica, sans-serif;} */
 .bld { font-weight:bold; font-family: Helvetica; font-style:italic; font-size:.93em;}
+/* tafsir Ibn Kathir: contenu de l'interpreation globle */
 
-
-
+.paragarapheDuGlobal{  text-align:left !important; font-family:Arial, Helvetica, sans-serif !important; }
