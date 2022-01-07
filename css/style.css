@@ -443,6 +443,12 @@ ul.ulSUNNA { list-style:none; padding:0 auto; margin:0 auto;}
 /* tafsir Ibn Kathir: contenu de l'interpreation globle */
 
 .paragarapheDuGlobal{  text-align:left !important; font-family:Arial, Helvetica, sans-serif !important; }
+
+
+
+
+
+
 /* Naissance du Prophète( Paix et Bénédiction de DIEU sur lui */
 		.date570{
 		  text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;
@@ -455,3 +461,20 @@ ul.ulSUNNA { list-style:none; padding:0 auto; margin:0 auto;}
 		 box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 		 
 		}
+/* video:coment2/s102  */
+		/* video */
+		.popuptext{ width: 40%; background-color: #555; text-align: center; border-radius: 6px; position: relative; border-style: solid; border-color: #555 transparent transparent transparent; padding:.2em .2em .2em 2em; }
+		.popuptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 15px; border-style: solid; border-color: #555 transparent transparent transparent; }
+		.grandCommentaire{line-height:1.4; font-size:.9em;}
+		.img{  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset, 0px 2px 2px 0px rgba(255, 255, 255, 0.5); border:1px solid #8c8b8b; border-radius: 4px;  background:#555;	}
+		.videoCommentaire{  width: 269%;  margin:0 ; padding:0 ; }
+		.videoDecaler{ padding: 0 0 0 1.5em; background:#555; }
+/************************************************************************** 
+  - les turlipins: Ceux qui n'ont pas les diplômes officiels, 
+  et qui pourtant, prennent la parole
+  
+  - "Quant l'Etat est défaillant: les sorcières apparaissent". Michelet 
+  
+   Extrait conference de Boris Cyrulnik :Le monde bouleversé 
+ 
+***********************************************************************/

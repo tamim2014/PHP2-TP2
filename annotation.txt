@@ -1,9 +1,13 @@
-_____________Ibn Abbas
-coment1/s111,s107 | coment2/s113,  coment2/s109, coment2/s108, s107 :
-<span class="referenceNom" style="color:black; font-family:Calibri;">Ibn Abbas</span><sup id="a2" ><a href="../coment1/s110.html#a1" target="_blank" class="annotation"> (1)</a></sup>
 _____________Ali
 coment2/s102 :
 <span class="referenceNom" style="color:black; font-family:Calibri;">Ali</span><sup id="ali" ><a href="../bibliographie.html#ali" target="_blank" class="annotation"> (1)</a></sup>
+
+
+
+_____________Ibn Abbas
+coment1/s111,s107 | coment2/s113,  coment2/s109, coment2/s108, s107 :
+<span class="referenceNom" style="color:black; font-family:Calibri;">Ibn Abbas</span><sup id="a2" ><a href="../coment1/s110.html#a1" target="_blank" class="annotation"> (1)</a></sup>
+
 
 _____________Abou Houraira
 coment1/s107
