@@ -5,6 +5,7 @@
 	 <link rel="shortcut icon" href="favicon.ico"  />
 	 <link rel="stylesheet" href="css/style.css" />
 	 <link rel="stylesheet" href="css/top.css"  media="screen">
+	 <link rel="stylesheet" href="css/footer.css" ><!-- footer ndreda -->
 </head>
 <style>
   hr.separateur {
@@ -21,11 +22,11 @@
 	    <a href="coment2/index.html" target="_blank">Commentaires(Tafsir) Djalalein</a>    
 	    <!-- <a href="sujet/sujet.php"> &Eacutenonc&eacute; </a> -->
 	    <div class="dropdown">
-		<button class="dropdown-btn" style="color:transparent;" > Les sourates </button>
-		<div class="dropdown-content" style="max-height:30em; overflow-y: hidden;">
-			<a href="coment1/bibliographie.html" >Bibliographie</a>								
-		</div>
-	</div>
+			<button class="dropdown-btn" style="color:transparent;" > Les sourates </button>
+			<div class="dropdown-content" style="max-height:30em; overflow-y: hidden;">
+				<a href="bibliographie.html" >Bibliographie</a>								
+			</div>
+	    </div>
 	</div>
 	<main>
 		<!-- Présentation d'Ibn Kathir (mettre une photo) -->
@@ -78,10 +79,44 @@
 		<button onclick="topFunction()" id="myBtn" title="Go to top"  >
 			<img  src="img/top.JPG" id="imageToTop" style="padding:0; margin:0; ">
 		</button>
+		<!--
 		<footer  style="position:static; ">
 			 <small style="color:#c4c4c4;"><span style="color:gray;"><i>2022</i> &copy; -</span> <i>Commentaires du Coran</i></small>
 		     <img src="img/coran..png"    class="marfa3"/>
 		</footer>
+		-->
+			<div class="conteneur-reponses"></div> <!-- séparateur -->
+			<footer style="position:static; bottom:0;  " > 
+				<div class="content-footer"  >  
+					<div class="ndreda-footer" > 
+						<!-- animation du footer -->
+						<div style="position: relative; top:0; right:auto; width:auto;">		
+							<div class="wrapper" style=" ">
+								<div class="obj"></div>
+								<div class="obj"></div>
+							</div>
+						</div>	
+						<!-- contenu du footer -->
+						<div id="ndreda-footerG">
+							<ul type="square" style="color:#ccc">
+								<li><i><small style="color:gray;"> ...</small></i> </li>
+								<li><i><small style="color:gray;"> ...<small style="color:#ff531a;"> ...</small></small></i> </li>
+								<li><i><small style="color:gray;"> ...<small style="color:#f44336;"> ...</small></small></i> </li>
+							</ul>
+						</div>
+						<div id="ndreda-footerD" style="margin:0 auto; 4.4% auto; color:#ccc;" >
+							<ul type="square">
+								<li><i><small style="color:gray;"> ...</small></i> </li>
+								<li><i><small style="color:gray;"> ...<small style="color:#ff531a;"> ...</small></small></i> </li>
+								<li><i><small style="color:gray;"> ...<small style="color:#f44336;"> ...</small></small></i> </li>
+							</ul>
+
+						</div>
+					</div>		
+					 <small class="copyright_"><span style="color:gray;">2022 &copy; -</span> <i style="color:#555">Commentaires du Coran</i></small> 
+					 <img src="img/coran..png"    class="marfa3"/>
+				</div>	  
+			</footer>
     </main>
 	<script type="text/javascript" src="js/top.js"></script>
 </body>
