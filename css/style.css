@@ -75,7 +75,7 @@ footer {
 
 .topnav a, .dropdown-btn {
   float: left;
-  color: #ECECEA;
+  color: #ddd;
   text-align: center;
   padding: 25px 40px;  /* padding: 25px 16px; */
   text-decoration: none;
@@ -90,7 +90,7 @@ footer {
 
 .topnav a:hover {
   background-color: #474e5d;  /* #ECECEA; */
-  color:#ccc; /* black; */
+  color:#cca; /* black; */
 }
 .topnav a.active {
   
@@ -99,6 +99,9 @@ footer {
   
   font-weight:bold;
   padding: 25px 30px; /* padding: 25px 30px; */
+}
+.topnav a.active:hover {
+  color:#cca;
 }
 
 
