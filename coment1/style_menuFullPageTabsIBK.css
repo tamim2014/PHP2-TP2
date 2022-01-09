@@ -1,0 +1,10 @@
+/* MENU FULL PAGE TABS( en mode simplifié(perso)):
+ *
+ * .topnav a:nth-last-child(2)  { POUR JJ } 
+ * .topnav a:nth-last-child(3)  { POUR IBK }
+ * 
+ */
+.topnav a:nth-last-child(3)  {
+  background-color: #474e5d;  /* #ECECEA; */
+  color:#ccc; /* black; */
+}

@@ -7,3 +7,8 @@ Question sur l'oeil de la certitude(s102 JJ).
 
 > joindre le documentaire(video 2019 ou 2020 je c pa)
  >découpage( extraire les partie concernant le verset7)  et montage
+
+---------------------------
+blem? height timeLine sur chrome
+solution1? assigner la mm heuteur à 2 div adjacent
+solotion2? determiner la hauteur de  div.main et assigner la mm valeur  au div.timeline
