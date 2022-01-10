@@ -9,14 +9,34 @@
 	 <link rel="stylesheet" href="css/top.css"  media="screen">
 	 <link rel="stylesheet" href="css/footer.css" ><!-- footer ndreda -->
 	 <style>
-	    #contenu, .contenu{	width: 71% !important; display:inline; float: right; margin-left:0; margin-right:1%;}
-	    .coupeBloc { color:transparent; background:#474e5d;   display:inline-block; width:71%; position:relative; right:1.1%;}
+	    #contenu, .contenu{	 display:inline; float: right; margin-left:0; margin-right:1%;}
+	    .coupeBloc { color:transparent; background:#474e5d;   display:inline-block;  position:relative; right:1%;}
 	    /* 
-		 * J'hesite encore de carder ou pas les coupeBloc
+		 * J'hesite encore de garder ou pas les coupeBloc
 		 * pour annuler les "coupeBloc" , ajouter la ligne suivante:
 		 *
 		 */
-		 .coupeBloc{ background:#558C89; right:auto;}
+		 
+		 .coupeBloc{ background:#558C89; float:right; width:100%; } 
+		 
+		 /*SOLUTION au blem 1: Assigner la mm hauteur aux 2 colonnes(div.timeLine et  main */  
+		 
+	    #bigContenair { display: flex !important; }
+	    .timeline , main { flex: 1 !important;  }
+				
+	    /* Une marge en bas */
+		
+		 #bigContenair { margin-bottom:2em;}
+	   
+	    /* Ajuster  le contenu de la colonne de gauche et augmenter son marge droite de 0.5% */
+		
+		main {  margin:0 .5% 0 0; padding:0 ;}
+		.contenu {width:99.5% !important; }
+		
+		/* SOLUTION au blem 2:Ajustement vertical des contenus des 2 colonnes (pour chrome) */
+		
+		#date2 { -webkit-margin-before:785px !important;} /* c'  l equivalent de margin-top */ 
+		
 	 </style>
 </head>
 <body style="background:#474e5d;">
@@ -34,20 +54,20 @@
 	</div>
 	<!-- Mettre div.timeline et div.main dans un conteneur(#bigContenair) pour pouvoir ajuster leurs hauteur  -->
 	<div id="bigContenair">
-		<div class="timeline" style="padding-bottom:28.2em"><!-- le padding-bottom est une solution pour l'ajustement ( dans ce cas le #bigContenair ne sert à rien mais je le garde pour maitriser le contrôle de ses 2 contenus) -->
+		<div class="timeline">
 			  <div class="container left">
-				<div class="content" style="margin-top:1%">
+				<div class="content" >
 				  <h2>619</h2>
 				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
 				</div>
 			  </div>
-			  <div class="container left" style="margin-top:299%">
+			  <div class="container left" style="margin-top:810px;" id="date2">
 				<div class="content">
 				  <h2>1301</h2>
 				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
 				</div>
 			  </div>
-			  <div class="container left" style="margin-top:223%">
+			  <div class="container left" style="margin-top:605px">
 				<div class="content">
 				  <h2>1505</h2>
 				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
@@ -56,7 +76,7 @@
 		</div>
 	
 	
-		<main style="margin:0 auto;">
+		<main>
 		
 			<!-- Présentation d'Ibn Kathir (mettre une photo) -->
 			<div class="contenu" style="margin-top:0; margin-bottom:0; padding:1em 0 0 0; ">
@@ -129,7 +149,7 @@
 				<hr style="width:80%; float:left; margin-left:10%; border-color:#558C89; border:none;">
 				<div class="entree titreFiche" ><h3 style="line-height:0; font-family:serif; font-style:italic"> Les Djalaleyne </h3></div>
 			</div>		
-			<div class="contenu" style=" padding-bottom:3em; margin-bottom:1em; margin-top:0; ">
+			<div class="contenu" style=" padding-bottom:3em; margin-bottom:0; margin-top:0; ">
 				<div class="entree" style="padding:1em;">
 					<img src="img/t2.png" width="200" height="200" align="left" style="padding-right:1em"/>
 					Presque un siècle après Ibn Kathir; le Tafsîr Al Jalalayn: Littéralement «le commentaire des deux Jalâl». Un ouvrage exégèse du Coran, écrit par  deux savants.<br>  Il a été commencé en <strong>1459</strong> par <strong>Jalal Eddine al-Mahallî</strong> et achevé en <strong>1505</strong> par <strong>Jalâl Eddine as-Suyûtî</strong>. <br>
@@ -181,7 +201,7 @@
 				  	<ul type="square">
 						<li><i><small style="color:gray;"> ...</small></i> </li>
 						<li><i><small style="color:gray;"> ...<small style="color:#ff531a;"> ...</small></small></i> </li>
-						<li><i><small style="color:gray;"> blem sur chrome ?<small style="color:#f44336;"> le height timeLine dépasse</small></small></i> </li>
+						<li><i><small style="color:gray;"> ...<small style="color:#f44336;"> ...</small></small></i> </li>
 					</ul>
 
                 </div>
