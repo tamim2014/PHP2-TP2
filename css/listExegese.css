@@ -74,7 +74,9 @@
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
+  
 }
+
 
 /* Add arrows to the right container (pointing left) */
 .right::before {
@@ -89,6 +91,9 @@
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
 }
+/* backgroun(#74AFAD;) Seulement pour les 2 tafsir qu'on diffuse */
+.t7::before, .t10::before {border-color: transparent #74AFAD transparent transparent;}
+#t7, #t10 { background-color:#74AFAD;}
 
 /* Fix the circle for containers on the right side */
 .right::after {
@@ -136,3 +141,23 @@
   left: 0%;
   }
 }
+/* #################################################################### */
+
+  .timeline{ padding:0 !important;}
+  .timeline .container .content p{ font-size:.9em;}
+  
+  /* elargir la zone de text gauche */
+  .timeline .left {padding-left:0;}
+  .timeline .left .content {margin-left:0; }
+  /* elargir la zone de text droite */
+  .timeline .right {padding-right:0;}
+  .timeline .right .content {margin-right:0; }
+  /* reduction des marge verticales */
+  .timeline .left .content, .timeline .right .content {padding-top:1em; padding-bottom:0.001em !important;}
+  .timeline .left .content h2, .timeline .right .content h2{line-height:0; padding-bottom:.1em;} 
+  .timeline  .right .content, .timeline .left .content{line-height:1 !important;} 
+  /* mise en forme texte */
+  .exegeseNom{font-weight:bold; color:#115; padding-bottom:0; margin-bottom:0;}
+  ul.SUNNA{margin-top:-.5em ; color:gray; list-style:square; font-size:.95em ;}
+  ul.SUNNA .reference{color:black;}
+  

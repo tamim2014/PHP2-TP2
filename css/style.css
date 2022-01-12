@@ -407,6 +407,7 @@ b , .bleu {
 	color:#579;/* color:#457; ou gray */ 
 	padding-left:0; 	
 }
+.bleu125{ color:#125 !important; font-weight:bold;}
 /*ul.ulSUNNA dialogue à l'intérieur d'un Hadith du Prophète - mais i fo pas mettre la spna.SUNNA dans un paragraph */
 ul.ulSUNNA { list-style:none; padding:0 auto; margin:0 auto;} 
 .bleu { display:inline; }

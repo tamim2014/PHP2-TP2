@@ -16,6 +16,11 @@ coment1/s111,s107 | coment2/s113,  coment2/s109, coment2/s108, s107 :
 <span class="referenceNom" style=" font-family:Calibri;">Ibn Abbas</span><sup id="a2" ><a href="../coment1/s110.html#a1" target="_blank" class="annotation"> (1)</a></sup>
 
 
+ou dans /bibliographie
+<span class="referenceNom" style=" font-family:Calibri;">Ibn Abbas</span><sup><a href="bibliographie.html#abass" target="_blank" class="annotation"> (1)</a></sup>
+
+
+
 
 
 _____________Hassan Al-Basri
