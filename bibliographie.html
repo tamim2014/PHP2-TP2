@@ -35,8 +35,9 @@
 		
 		/* SOLUTION au blem 2:Ajustement vertical des contenus des 2 colonnes (pour chrome) */
 		
-		#date2 { -webkit-margin-before:785px !important;} /* c'  l equivalent de margin-top */ 
-		
+	 /* #date2 { -webkit-margin-before:???px !important;}*/  /* Anas (c'  l equivalent de margin-top) */ 
+        #date4 { -webkit-margin-before:780px !important;} /* Ibn Massound */
+        #date6 { -webkit-margin-before:625px !important;} /* Djalalein */
 	 </style>
 </head>
 <body style="background:#474e5d;">
@@ -56,24 +57,36 @@
 	<div id="bigContenair">
 		<div class="timeline">
 			  <div class="container left">
+				<div class="content" > <!-- URGENT: FIXER UN max-height pour "div.content" sinon devoir recalculer les hauter à chaque édit des "Lorem ipsum dolor"   -->
+				  <h2>601</h2><!-- Abou Houraira -->
+				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				</div>
+			  </div>
+			  <div class="container left" style="margin-top:525px;" id="date2">
+				<div class="content">
+				  <h2>612</h2><!-- Anas -->
+				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+				</div>
+			  </div>
+			  <div class="container left" style="margin-top:985px;">
 				<div class="content" >
 				  <h2>619</h2><!-- Ibn Abass -->
 				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
 				</div>
 			  </div>
-			  <div class="container left" style="margin-top:810px;" id="date2">
+			  <div class="container left" style="margin-top:807px;" id="date4" >
 				<div class="content">
 				  <h2>~619</h2><!-- Ibn Massound -->
 				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
 				</div>
 			  </div>
-			 <div class="container left" style="margin-top:775px;" >
+			 <div class="container left" style="margin-top:1135px;" >
 				<div class="content">
 				  <h2>1301</h2><!-- Ibn Kathir -->
 				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
 				</div>
 			  </div>
-			  <div class="container left" style="margin-top:630px">
+			  <div class="container left" style="margin-top:630px" id="date6">
 				<div class="content">
 				  <h2>1505</h2><!-- djalaleyne -->
 				  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
@@ -81,6 +94,55 @@
 			  </div>
 		</div>
 		<main>
+			<!-- Abou houraira -->
+			<div id="abouhouraira" class="contenu" style="margin-top:0; margin-bottom:0; padding:1em 0 0 0; ">
+				<hr style="width:80%; float:left; margin-left:10%; border-color:#558C89; border:none;">
+				<div class="entree titreFiche"><h3 style="line-height:0; font-family:serif; font-style:italic"> Abou Houraira </h3></div>
+			</div>
+			<div class="contenu" style=" padding-bottom:3em; margin-bottom:0; margin-top:0; padding-top:1em; ">
+				<div class="entree" style="padding:1em 2em" >
+					 	
+						 <img src="img/abouhouraira.png" width="200" height="200" align="left"  style="padding-right:1em"/>
+					      Compagnon du prophète &#65018;, Abu Hurayra est né entre [601 - 604]. Il est le principal Muhaddith<span class="reference" style="font-size:1em">(rapporteur de hadith)</span>, cité dans l'isnad<span class="reference" style="font-size:1em">( chaine de transmission des refrences menant au Prophète)</span>.<br> Il fréquenta Muhammad &#65018; moins de quatre ans, et transmit 5 374 hadiths.<br>
+						  Né au Yemen, vers l'âge de trente ans il arriva à Médine avec la délégation des Daws pour embrasser l'islam. Il rencontra le Prophète à la fin de sa vie à Khaybar en mai-juin 628. Dès lors ne le quitta plus.<br>
+						  Il a écrit  un grand nombre de livres sur le prophète. Notamment le <u>Sahifah Sahihah</u>: une compilation de 140 récits sur le prophète. Cet oeuvre nous est parvenu parce qu'il avait donné à <span class="referenceNom">Hammâm ibn Munabbih</span>. <br>
+						  La majorité des savants sunnites considèrent Abou Hourayra comme l'un des plus grands narrateurs de hadith, digne de confiance, comme tous les compagnons du prophète Mahomet. <br><br>
+						  Grâce à ses prodigieux efforts, des centaines de hadîths et paroles du Prophète &#65018; ont pu être transmis aux générations présentes. 
+						  Avec les compagnons:
+						    <!-- Remarque: le "margin-top:0" ne fonctionne pas si <ul> est dans un <p>. Pourquoi? (sujet de recherche ...) -->
+							<ul type="square" style="margin-top:0; margin-bottom:0;">
+								<li>Abd Allâh fils d’Omar,</li>
+								<li>Anas fils de Malik, </li>
+								<li>la Mère des Croyants Aishah,</li>
+								<li>Jâbir Ibn Abd Allâh,</li>
+								<li>et Abû Saïd Al-Khudrî,</li>
+							</ul>
+					     il fait partie des principaux transmetteurs de Hadîth. Ils ont transmis plus de mille paroles du Prophète &#65018;
+                         <a href="http://www.islamophile.org/spip/Abu-Hurayrah.html" target="_blank"><img src="img/pageSuivant.png"   class="marfa3" /></a></i><br>	
+					 				 	 
+				</div>
+				<br><hr class="finExo" ><div class="entree titreExo" ></div>
+			</div>
+			<div class="coupeBloc">SEPARE LES BLOC</div>
+			<!-- Anas -->
+			<div id="anas" class="contenu" style="margin-top:0; margin-bottom:0; padding:1em 0 0 0; ">
+				<hr style="width:80%; float:left; margin-left:10%; border-color:#558C89; border:none;">
+				<div class="entree titreFiche" ><h3 style="line-height:0; font-family:serif; font-style:italic"> Anas Ibn Malik </h3></div>
+			</div>
+			<div class="contenu" style=" padding-bottom:3em; margin-bottom:0; margin-top:0; padding-top:1em; ">
+				<div class="entree" style="padding:1em 2em" >
+					<img src="img/anas.png" width="200" height="200" align="left" style="padding-right:1em"/>
+				     Compagnon du Prophète &#65018;(Sahaba), Anas rapporta 1 2667 hadiths dont 168 figurent dans le <span class="textSource">Sahih al-Boukhari</span> et le <span class="textSource">Sahih Mouslim</span>. Il est donc ainsi considéré par les sunnites comme un des plus grands narrateurs, digne de confiance et faisant partie des meilleurs Sahaba. L'authenticité de ses récits reste indiscutable. Quant à sa rigueur; <span class="">Muhammad Hamidullah</span>, dans son livre, <span class="textSource">Le Prophète de l'Islam</span><span class="reference">(éditions Al-Najah, Tome II, p.649-650)</span>, nous éclaire en ces termes: "Anas écrivait dans des cahiers les dires du prophète &#65018; et en faisait la lecture de temps en temps à celui-ci en vue de corriger les erreurs possibles".</span><br><br>
+					 Connu sous le nom de serviteur du Prophète, Anas Ibn Malik est né en 612. Lorsque le prophète arriva à Médine en 622, la mère d'Anas le présenta au prophète comme son serviteur. Le garçon s’attacha fortement aux Prophète &#65018; et ne se sépara jamais de lui. Dès l'âge de 8 ans, Anas devint alors, un compagnon fidèle de Muhammad &#65018;  Le cœur d’Anas<span class="reference">(qu’Allah soit satisfait de lui)</span>, était empli d’amour pour le Prophète. Il disait : « Aucune nuit ne passe sans que je ne vois mon bien-aimé », c'est-à-dire le Prophète &#65018;. Il aimait tout aussi bien Anas et aimait plaisanter avec lui. Anas resta avec le Prophète &#65018; jusqu'à sa mort en 632: c'est-à-dire pendant une décennie. Dix ans, au cours desquels il prit part à ses côtés à huit batailles et pria avec lui vers les <u>deux qibla-s</u>. <br>
+					 &Agrave; la mort du Prohète &#65018; Anas a tout juste 20 ans. Alors il s'engage dans l'armée et participe aux conquêtes de l'islam. Il commande la cavalerie lors du siège de la solide forteresse de <u>Chouchtar</u> en Perse, où il perdit son frère <span class="referenceNom">Bara</span> qui mourut  en essayant de le sauver.<br><br>
+					 <img src="img/tombeAnas.png" width="200" height="200" align="left"  style="padding-right:1em"/>
+					 Il se rendit ensuite à Damas puis s'installa à Bassorah en Irak où il resta jusqu'à sa mort, à l'âge de 100 ans. Il est donc le Compagnon du prophète ﷺ qui a vécu le plus longtemps. Il fut le dernier sahabi à mourir après <span class="referenceNom">Abou Tofayl</span>. Anas connut en personne <span class="bleu" style="font-weight:bold">Abou Hanifa</span>, fondateur de la première des quatre grandes écoles de jurisprudence islamique. Ce qui fait de <span class="">Abou Hanifa</span>, un <strong>tabeï</strong>(personne ayant connu au moins un des Sahaba).
+					 La mosquée et le sanctuaire d'Anas Ibn Malik sont situés à Bassora, en Irak. Sa tombe est un simple cénotaphe. Cependant, le sanctuaire a été détruit avec des engins explosifs. Malgré le fait que la mosquée et le sanctuaire sont fortement endommagés et que les murs sont tachés de vandalisme, le complexe reste un lieu de visite populaire des musulmans sunnites.
+                     <a href="https://www.islamweb.net/fr/article/176127/Anas-ibn-M%C3%A2lik-le-serviteur-du-Proph%C3%A8te" target="_blank"><img src="img/pageSuivant.png"   class="marfa3" /></a></i><br>					
+				</div>
+				<br><hr class="finExo" ><div class="entree titreExo" ></div>
+			</div>
+			<div class="coupeBloc">SEPARE LES BLOC</div>
 			<!-- Présentation d'Ibn Abass -->
 			<div id="abass" class="contenu" style="margin-top:0; margin-bottom:0; padding:1em 0 0 0; ">
 				<hr style="width:80%; float:left; margin-left:10%; border-color:#558C89; border:none;">
@@ -117,7 +179,6 @@
 				<br><hr class="finExo" ><div class="entree titreExo" ></div>
 			</div>
 			<div class="coupeBloc">SEPARE LES BLOC</div>
-			
 			<!-- Ibn Massound -->
 			<div id="massound" class="contenu" style="margin-top:0; margin-bottom:0; padding:1em 0 0 0; ">
 				<hr style="width:80%; float:left; margin-left:10%; border-color:#558C89; border:none;">
@@ -126,7 +187,7 @@
 			<div class="contenu" style=" padding-bottom:3em; margin-bottom:0; margin-top:0; padding-top:1em; ">
 				<div class="entree" style="padding:1em 2em" >
 					<img src="img/ibnMassound.png" width="200" height="200" align="left" style="padding-right:1em"/>
-					Ibn Masʿūd(ابن مسعود) de son nom complet  Abdullah ibn Masud  est un compagnon du Prophète &#65018;<span class="reference">(Le 6ème converti)</span>. C'est son  assistant personnel: au service du Prophète comme secrétaire notant les sourates. Il eut donc l'occasion d'être lui-même témoin direct de la révélation. Ibn Masûd est une source importante d'interprétation du Coran. Il est d'ailleurs l'un des quatre(<span class="referenceNom">Salim mawla Abi Hudhayfa</span>, <span class="referenceNom">ibn Ka'b </span>, <span class="referenceNom">Muadh ibn Jabal </span>) chez qui, il est bien vu d'apprendre le Coran. Il est d'ailleurs, l'auteur d'une autre compilation des sourates du Coran qui perdura trois siècles. D'après <span class="referenceNom">Addullah ibn Amr</span>, le Prophète &#65018; a dit :
+					Ibn Masʿūd(ابن مسعود) de son nom complet  Abdullah ibn Maçud  est un compagnon du Prophète &#65018;<span class="reference">(Le 6ème converti)</span>. C'est son  assistant personnel: au service du Prophète comme secrétaire notant les sourates. Il eut donc l'occasion d'être lui-même témoin direct de la révélation. Ibn Masûd est une source importante d'interprétation du Coran. Il est d'ailleurs l'un des quatre(<span class="referenceNom">Salim mawla Abi Hudhayfa</span>, <span class="referenceNom">ibn Ka'b </span>, <span class="referenceNom">Muadh ibn Jabal </span>) chez qui, il est bien vu d'apprendre le Coran. Il est d'ailleurs, l'auteur d'une autre compilation des sourates du Coran qui perdura trois siècles. D'après <span class="referenceNom">Addullah ibn Amr</span>, le Prophète &#65018; a dit :
                      <span class="SUNNA">
 					    « Prenez le Coran de quatre personnes:
 						<ul class="ulSUNNA" style="list-style:square;">
@@ -139,7 +200,12 @@
 					 </span>					
 					<span class="reference">(Hadith N°4504: du Sahih Muslim)</span><br>
 					Abd Allâh Ibn Massound fut instruit à "l’école" du Prophète. Il fut le meilleur récitateur du Coran parmi les compagnons du Prophète et le comprenait encore mieux que tous. Par conséquent, il était aussi celui qui avait le plus de connaissance en terme de Législation islamique <span class="reference">(Shari`ah)</span>. Il a soutenu la position que le fait de prononcer la formule de répudiation trois fois à la suite : <strong>« triple talâq »</strong> ne compte que pour une seule fois et donc ne constitue pas une répudiation définitive et irrévocable mais seulement une répudiation dite réversible jusqu'à la fin du délai de viduité.<br><br>
-					En 639, Ibn Masûd s'installe à Koufa, ville que Omar ibn al-Khattâb vient de faire construire. Il y enseigne la religion et la compréhension de la loi islamique. Il est même rapporté qu'Omar s'exclama un jour: <span class="reference" style="font-size:1em; ">« Je vous ai donné la priorité sur moi en vous envoyant Abdullah ibn Masud. »</span><br><br>
+					<img src="img/KOUFAen1915.png" width="200" height="200" align="left" style="padding-right:1em;  "/>
+					En 639, Ibn Masûd s'installe à Koufa, ville que Omar ibn al-Khattâb vient de faire construire. Il y enseigne la religion et la compréhension de la loi islamique. Il est même rapporté qu'Omar s'exclama un jour: <span class="reference" style="font-size:1em; ">« Je vous ai donné la priorité sur moi en vous envoyant Abdullah ibn Maçud. »</span>.
+                    Il était le plus savants des compagnons du Prophète &#65018;. Et rien ne peut mieux illustrer cela  que le récit de l’homme qui interpella Omar dans la plaine d’Arafat :<span class="reference" style="font-size:1em; "> "Ô Commandeur des Croyants! je reviens de Kûfah  où un homme est en train de retranscrire le Coran en se basant sur sa mémoire."</span>
+					Omar se fâcha et, tout en fumant de colère, entreprit les cents-pas auprès de son chameau.<span class="reference" style="font-size:1em; ">"Quelle est l’identité de cet homme ?</span> demanda Omar.<br>
+					<span class="reference" style="font-size:1em; "> - " Abdullah ibn Maçud"</span> , répondit l’homme. Alors la colère d'Omar s’estompa et il retrouva son calme: <br>
+                    <span class="reference" style="font-size:1em; font-weight:bold; ">« Malheur à toi, dit-il à l’homme, par Dieu, je ne connais aucun homme qui ne soit aussi doué dans cette matière que lui ».</span> <br> Ibn Maçud  vécut jusqu’au Califat de notre maître Othmân.<br><br>
 					À Koufa, il eut pour disciples:
 					<ul type="square" style="margin-top:0; margin-bottom:0;">
 						<li>Alqamah ibn Qays an-Nakha'i</li>

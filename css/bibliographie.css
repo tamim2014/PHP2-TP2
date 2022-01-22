@@ -67,7 +67,7 @@
 
 
 
-
+         /* URGENT: FIXER UN max-height pour "div.content" sinon devoir recalculer les hauter à chaque édit des "Lorem ipsum dolor" */
 		/* conteneur texte */
 		.content {
 		  padding:.5em .7em; /* padding: 20px 30px; */
