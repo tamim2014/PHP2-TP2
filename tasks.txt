@@ -1,6 +1,3 @@
-1)déplacer ici(à la racine) la biblio
-2) et y ajouter un footer ndreda
-____________
 
 Question sur l'oeil de la certitude(s102 JJ).
 
@@ -9,6 +6,31 @@ Question sur l'oeil de la certitude(s102 JJ).
  >découpage( extraire les partie concernant le verset7)  et montage
 
 ---------------------------
-blem? height timeLine sur chrome
-solution1? assigner la mm heuteur à 2 div adjacent
-solotion2? determiner la hauteur de  div.main et assigner la mm valeur  au div.timeline
+blem: height timeLine sur chrome ?
+solution1? -webkit-margin-before ( pour assigner un margin-top spécifique aux browse chrom)
+_______________________________________________
+601: Abou Houraira(compagnon du Prophète).............OK 
+612: Anas Ibn Malik(compagnon du Prophète).............OK
+619:Ibn Abbas (compagnon du Prophète).....................OK
+~619:Ibn Massound  (compagnon du Prophète)...........OK
+
+LES 4 IMAM DES 4 ECOLES JURIDIQUES  
+
+699: Abou Hanifa ou Imam 	Abou Hanifa( étudiant de Anas - tabioun) ..................................................
+~711:  Malik ibn Anas ou Imam Malik( étudiant de ??? )
+767:Ash-Shâfi'î  ou Imam Shafi( étidiant de Malik ibn Anas )..................
+780: Ahmad Ibn Hanbal* ou Imam Hambal( étudiant Ash-Shâfi'î )......................
+
+
+810: Mouhammad al-Boukhari( étudiant de Hanbal)...........................................
+821: Muslim ibn al-Hajjaj(étudiant de Hanbal et Bouhari)...........
+
+1301: Ibn Kathir .........................OK
+1459 et 1501: les djalaleine ......OK
+
+
+Remarque*
+L'imam Hanbal fut un intellectuel  aux méthodes presque modernes: 
+On doit à ses disciples, dont l'un de ses fils, 'Abdullâh (mort en 903),
+ une compilation des réponses qu'il donnait aux questions qui lui étaient posées
+ sur les sujets les plus divers.

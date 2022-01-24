@@ -73,7 +73,8 @@
 		  padding:.5em .7em; /* padding: 20px 30px; */
 		  background-color: white;
 		  position: relative;
-		  border-radius: 6px;  
+		  border-radius: 6px;
+          height:373px;		  
 		}
 
 		/* Media queries - Responsive timeline on screens less than 600px wide */
