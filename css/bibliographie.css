@@ -67,15 +67,18 @@
 
 
 
-         /* URGENT: FIXER UN max-height pour "div.content" sinon devoir recalculer les hauter à chaque édit des "Lorem ipsum dolor" */
+         
 		/* conteneur texte */
 		.content {
-		  padding:.5em .7em; /* padding: 20px 30px; */
+		  padding:.5em .3em .5em .7em; /* padding:.5em .7em; | padding: 20px 30px; */
 		  background-color: white;
 		  position: relative;
 		  border-radius: 6px;
-          height:373px;		  
+          height:373px;	/* FIXER ainsi la hauteur: sinon devoir réajuster le timeline  à chaque édit des div.content("Lorem ipsum dolor") */	  
 		}
+		.resumeAuteur { list-style:square; padding:0 .5em 0 1.4em; margin:0 auto; color:gray; font-size:.8em;} 
+		.itemAuteur{color:black;} 
+		.dataItemAuteur{ padding-left:3.7em; text-align:left;  }
 
 		/* Media queries - Responsive timeline on screens less than 600px wide */
 		@media screen and (max-width: 600px) {
